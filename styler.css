@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+    "menu1 top1 top1"
+    "menu1 file1 file1"
+}
+
+.top1 {
+    grid-area: top1;
+    display: flex;
+    width: 1480px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #353536;
+}
+
+.menu1 {
+    grid-area: menu1;
+    display: flex;
+    width: 200px;
+    height: 902px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #272727;
+}
+
+
+.file1 {
+    grid-area: file1;
+    width: 1480px;
+    height: 782px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #212121;
+}
