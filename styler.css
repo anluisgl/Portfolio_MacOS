@@ -22,8 +22,8 @@ body {
 .top1 {
     grid-area: top1;
     display: flex;
-    width: 1480px;
-    height: 120px;
+    width: 1485px;
+    height: 70px;
     justify-content: center;
     align-items: center;
     color: white;
@@ -32,8 +32,8 @@ body {
 
 .menu1 {
     grid-area: menu1;
-    display: flex;
-    width: 200px;
+    display: block;
+    width: 194px;
     height: 902px;
     justify-content: center;
     align-items: center;
@@ -41,11 +41,39 @@ body {
     background: #272727;
 }
 
+.h1categoria {
+    color: rgba(255, 255, 255, 0.289);
+    font-size: 10px;
+    margin: 10px;
+    margin-left: 25px;
+}
+
+.h1section {
+    color: rgba(255, 255, 255, 0.575);
+    font-size: 13px;
+    margin: 10px;
+    margin-left: 25px;
+}
+
+.margintop {
+    margin-top: 30px;
+}
+
+.seleccion {
+    border: 1px solid #ffffff00;
+    border-radius: 7px;
+    width: 130px;
+    height: 30px;
+    background-color: #ffffff2f;
+    padding: 5px;
+}
+
+
 
 .file1 {
     grid-area: file1;
-    width: 1480px;
-    height: 782px;
+    width: 1485px;
+    height: 832px;
     display: flex;
     justify-content: center;
     align-items: center;
