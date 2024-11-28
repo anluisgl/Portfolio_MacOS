@@ -107,9 +107,65 @@ body {
     grid-area: file1;
     width: 90vw;
     height: 92vh;
-    display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: top;
     color: white;
     background-color: #212121;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+    "folder1 folder2"
+}
+
+.folder1 {
+  grid-area: folder1;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-left: 200px;
+  margin-top: 10px;
+}
+
+.folder2 {
+  grid-area: folder2;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.imgfolder {
+  margin: 10px;
+  width: 100px;
+}
+
+.imgfolder2 {
+  margin: 10px;
+  width: 90px;
+}
+
+.test {
+  margin-top: 50px;
+  display: block;
+}
+
+.namefile {
+  text-align: center;
+  font-size: 13px;
+}
+
+.imgfile {
+  margin: 10px;
+  width: 70px;
+}
+
+.a {
+  text-decoration: none;
+  color: white;
 }
