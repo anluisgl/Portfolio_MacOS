@@ -8,6 +8,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
+    background-color: #202020;
 }
 
 .box {
@@ -234,13 +235,15 @@ body {
   grid-area: top2;
   width: 100%;
   height: 5vh;
-  background-color: rgb(0, 0, 0);
+  background-color: #202020;
   color: white;
   display: grid;
+  position: sticky;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto auto;
   grid-template-areas:
-  "left center right"
+  "left center right";
+
 }
 
 .left {
@@ -275,20 +278,21 @@ body {
 
 }
 
-
 .button {
   grid-area: file2;
   width: 100%;
   height: 5vh;
-  background-color: rgb(0, 0, 0);
+  background-color: #202020;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  
 }
 
 .buttonshearch {
-  background-color: #1c1c1e;
+  background-color: #2c2c2e;
   width: 100%;
   margin: 10px;
   padding: 15px;
@@ -302,10 +306,10 @@ body {
 .file2 {
   grid-area: file2;
   width: 100%;
-  height: 95vh;
-  background-color: rgb(0, 0, 0);
+  height: 50vh;
+  background-color: #202020;
   color: white;
-  justify-content: center;
+  justify-content: top;
   align-items: top;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -313,63 +317,55 @@ body {
   grid-template-areas:
   "thefolder2-1 thefolder2-2 thefolder2-3"
   "thefolder2-4 thefolder2-5 thefolder2-6"
+  "thefolder2-7 thefolder2-7 thefolder2-9";
+  gap: 0px;
 }
 
 .thefolder2-1 {
   grid-area: thefolder2-1;
   height: 100px;
   display: block;
-  margin: 10px;;
-  background-color: red;
+  margin: 0px;
 }
 
 .thefolder2-2 {
   grid-area: thefolder2-2;
   height: 100px;
-  margin: 10px;
-  background-color: red;
+  margin: 0px;
 }
 
 .thefolder2-3 {
   grid-area: thefolder2-3;
   height: 100px;
-  margin: 10px;
-  background-color: red;
+  margin: 0px;
 }
 
 .thefolder2-4 {
   grid-area: thefolder2-4;
   height: 100px;
-  margin: 10px;
-  background-color: red;
+  margin: 0px;
 }
 
 .thefolder2-5 {
   grid-area: thefolder2-5;
   height: 100px;
-  margin: 10px;
-  background-color: red;
+  margin: 0px;
 }
 
 .thefolder2-6 {
   grid-area: thefolder2-6;
   height: 100px;
-  margin: 10px;
-  background-color: red;
+  margin: 0px;
 }
 
 .thefolder2 {
   margin: 10px;
 }
 
-.imgfolder2-2 {
-  margin: 10px;
-  width: 100px;
-}
-
 .imgfolder2-1 {
-  margin: 10px;
-  width: 90px;
+  margin: 10px auto;
+  width: 100px;
+  display: block;
 }
 
 .thefolder2 {
@@ -382,8 +378,9 @@ body {
 }
 
 .imgfile2 {
-  margin: 10px;
-  width: 70px;
+  margin: 10px auto;
+  width: 65px;
+  display: block;
 }
 
 
