@@ -8,11 +8,17 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    background-color: #202020;
+    background-image: url('img/SequoiaLight.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
 }
 
 .box {
     display: grid;
+    padding: 10px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto;
     grid-template-areas:
@@ -23,7 +29,8 @@ body {
 .top1 {
     grid-area: top1;
     display: flex;
-    width: 100%;
+    border-top-right-radius: 10px;
+    width: 99.9.9%;
     height: 8vh;
     color: white;
     background-color: #333333;
@@ -85,15 +92,19 @@ body {
 
 
 .menu1 {
-    grid-area: menu1;
-    display: block;
-    width: 10vw;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    background: #272727;
+  grid-area: menu1;
+  display: block;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  width: 10vw;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: rgba(39, 39, 39, 0.937);
+  backdrop-filter: blur(10px); 
 }
+
   
   .traffic-lights {
     display: flex;
@@ -159,8 +170,9 @@ body {
 
 .file1 {
     grid-area: file1;
-    width: 90vw;
-    height: 92vh;
+    border-bottom-right-radius: 10px;
+    width: 89vw;
+    height: 82vh;
     justify-content: center;
     align-items: top;
     color: white;
@@ -275,7 +287,10 @@ body {
 }
 
 .right {
-
+  display: flex;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
 }
 
 .button {
