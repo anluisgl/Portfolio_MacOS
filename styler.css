@@ -237,14 +237,16 @@ body {
   background-color: rgb(0, 0, 0);
   color: white;
   display: grid;
-  grid-template-columns: auto 1fr;
-  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+  "left center right"
 }
 
 .left {
   display: flex;
   align-items: center;
-  gap: 10px;
+  background-color: red;
 }
 
 .flecha {
@@ -261,12 +263,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgb(0, 255, 68);
 }
 
 .h1top22 {
   font-size: 17px;
   color: #ffffff;
   text-align: center;
+}
+
+.right {
+  background-color: red;
 }
 
 
