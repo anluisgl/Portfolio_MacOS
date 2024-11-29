@@ -197,16 +197,6 @@
   margin-top: 10px;
 }
 
-.folder2 {
-  grid-area: folder2;
-  width: 100px;
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-}
-
 .imgfolder {
   margin: 10px;
   width: 100px;
@@ -235,6 +225,18 @@
 .a {
   text-decoration: none;
   color: white;
+}
+
+.folder2 {
+  grid-area: folder2;
+  width: 90%;
+  height: 700px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: red;
 }
 
 
