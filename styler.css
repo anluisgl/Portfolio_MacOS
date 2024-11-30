@@ -193,7 +193,7 @@
   justify-content: center;
   align-items: center;
   color: white;
-  margin-left: 200px;
+  margin-left: 300px;
   margin-top: 10px;
 }
 
@@ -230,7 +230,7 @@
 .folder2 {
   grid-area: folder2;
   width: 70%;
-  height: 780px;
+  height: 700px;
   margin-top: 40px;
   display: flex;
   justify-content: center;
@@ -238,6 +238,7 @@
   color: rgb(0, 0, 0);
   border: 1px solid #9a9a9a93;
   background-color: #202020;
+  box-shadow: 0 20px 50px rgb(0, 0, 0);
   border-radius: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -255,9 +256,6 @@
   border-top-left-radius: 10px;
   display: flex;
   color: white;
-  background-image: url('img/profile3.png');
-  background-size: cover;
-  background-position: center; 
   background-color: rgb(68, 68, 68);
 }
 
@@ -296,6 +294,9 @@
   height: 100%;
   display: flex;
   color: white;
+  /* background-image: url('img/profile3.png');
+  background-size: cover;
+  background-position: center; */
   border-top-right-radius: 10px;
   background-color: rgb(68, 68, 68);
 }
@@ -306,7 +307,7 @@
   height: 100%;
   display: flex;
   color: white;
-  background-color: rgb(72, 0, 255);
+  background-color: rgb(68, 68, 68);
 }
 
 .folder2-4 {
@@ -315,7 +316,7 @@
   height: 100%;
   display: flex;
   color: white;
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(68, 68, 68);
 }
 
 .folder2-5 {
@@ -324,7 +325,8 @@
   height: 100%;
   display: flex;
   color: white;
-  background-color: rgb(255, 0, 0);
+  border-bottom-left-radius: 10px;
+  background-color: rgb(68, 68, 68);
 }
 
 .folder2-6 {
@@ -333,7 +335,8 @@
   height: 100%;
   display: flex;
   color: white;
-  background-color: rgb(72, 0, 255);
+  border-bottom-right-radius: 10px;
+  background-color: rgb(68, 68, 68);
 } 
 
 
@@ -348,7 +351,7 @@
 
 .dock {
   grid-area: dock;
-  margin-top: 15px;
+  margin-top: 9px;
   border-radius: 15px;
   width: 88%;
   height: 6vh;
@@ -364,7 +367,7 @@
 .dockofi {
   grid-area: dockofi;
   width: 100%;
-  height: 6vh;
+  height: 7vh;
   display: flex;
   border-radius: 15px;
   backdrop-filter: blur(20px); 
