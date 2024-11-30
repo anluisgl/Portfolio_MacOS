@@ -237,7 +237,7 @@
   align-items: center;
   color: rgb(0, 0, 0);
   border: 1px solid #9a9a9a93;
-  background-color: #ffffff;
+  background-color: #202020;
   border-radius: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -255,9 +255,10 @@
   border-top-left-radius: 10px;
   display: flex;
   color: white;
-  background-image: url('img/SequoiaLight.png');
+  background-image: url('img/profile3.png');
   background-size: cover;
-  background-position: center;
+  background-position: center; 
+  background-color: rgb(68, 68, 68);
 }
 
 .traffic-lights2 {
@@ -266,7 +267,7 @@
   top: 12px;
   left: 12px;
   margin-left: 15px;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .light2 {
@@ -295,7 +296,8 @@
   height: 100%;
   display: flex;
   color: white;
-  background-color: rgb(72, 0, 255);
+  border-top-right-radius: 10px;
+  background-color: rgb(68, 68, 68);
 }
 
 .folder2-3 {
