@@ -229,15 +229,111 @@
 
 .folder2 {
   grid-area: folder2;
-  width: 90%;
-  height: 700px;
+  width: 70%;
+  height: 780px;
   margin-top: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: rgb(0, 0, 0);
   border: 1px solid #9a9a9a93;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+  "folder2-1 folder2-2"
+  "folder2-3 folder2-4"
+  "folder2-5 folder2-6"
 }
+
+.folder2-1 {
+  grid-area: folder2-1;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  display: flex;
+  color: white;
+  background-image: url('img/SequoiaLight.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.traffic-lights2 {
+  display: flex;
+  gap: 8px;
+  top: 12px;
+  left: 12px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.light2 {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #555;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.red2 {
+  background-color: #ff5f56;
+}
+
+.yellow2 {
+  background-color: #ffbd2e;
+}
+
+.green2 {
+  background-color: #27c93f;
+}
+
+.folder2-2 {
+  grid-area: folder2-2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  color: white;
+  background-color: rgb(72, 0, 255);
+}
+
+.folder2-3 {
+  grid-area: folder2-3;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  color: white;
+  background-color: rgb(72, 0, 255);
+}
+
+.folder2-4 {
+  grid-area: folder2-4;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  color: white;
+  background-color: rgb(255, 0, 0);
+}
+
+.folder2-5 {
+  grid-area: folder2-5;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  color: white;
+  background-color: rgb(255, 0, 0);
+}
+
+.folder2-6 {
+  grid-area: folder2-6;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  color: white;
+  background-color: rgb(72, 0, 255);
+} 
+
 
 
 .dockx1 {
@@ -280,6 +376,8 @@
   display: flex;
   justify-content: center; 
   align-items: center; 
+  transition: transform 0.3s ease, margin 0.3s ease;
+  will-change: transform, margin;
 }
 
 .imgdock2 {
@@ -288,26 +386,53 @@
   display: flex;
   justify-content: center; 
   align-items: center; 
+  transition: transform 0.3s ease, margin 0.3s ease;
+  will-change: transform, margin;
 }
+
+.imgdock:hover {
+  transform: scale(1.2); 
+  margin-top: -15px; 
+}
+
+.imgdock:hover ~ img {
+  transform: scale(1); 
+}
+
+.imgdock:hover + img {
+  transform: scale(1.2);
+}
+
+.imgdock2:hover {
+  transform: scale(1.2); 
+  margin-top: -15px; 
+}
+
+.imgdock2:hover ~ img {
+  transform: scale(1); 
+}
+
+.imgdock2:hover + img {
+  transform: scale(1.2);
+}
+
 
 .animacion {
   width: 58px;
   height: 58px;
   animation: bounce 3s infinite;
   display: inline-block;
-  filter: drop-shadow(0 0 0 rgba(255, 255, 255, 0));
 }
 
 @keyframes bounce {
   0%, 100% { 
     transform: translateY(0); 
-    filter: drop-shadow(0 0 0 rgba(0, 0, 0, 0));
   }
   60% { 
     transform: translateY(-20px); 
-    filter: drop-shadow(0 0 20px rgb(255, 255, 255));
   }
 }
+
 
 
 
