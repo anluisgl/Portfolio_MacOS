@@ -163,7 +163,7 @@
 .seleccion {
     border: 1px solid #ffffff00;
     border-radius: 7px;
-    width: 130px;
+    width: 127px;
     height: 30px;
     background-color: #ffffff2f;
     padding: 5px;
@@ -531,8 +531,8 @@
   height: 50vh;
   background-color: #202020;
   color: white;
-  justify-content: top;
-  align-items: top;
+  justify-content: center;
+  align-items: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto auto;
