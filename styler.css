@@ -294,9 +294,6 @@
   height: 100%;
   display: flex;
   color: white;
-  /* background-image: url('img/profile3.png');
-  background-size: cover;
-  background-position: center; */
   border-top-right-radius: 10px;
   background-color: rgb(68, 68, 68);
 }
