@@ -84,7 +84,7 @@
 .imgtoolbar2 {
   width: 15px;
   height: 15px;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 
 
@@ -426,6 +426,8 @@
   width: 88%;
   height: 6vh;
   display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -440,7 +442,7 @@
   height: 6vh;
   display: flex;
   border-radius: 15px;
-  backdrop-filter: blur(20px); 
+  backdrop-filter: blur(25px); 
   border: 1px solid #9a9a9a93;
   color: white;
 }

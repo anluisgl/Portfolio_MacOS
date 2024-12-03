@@ -1,0 +1,74 @@
+/**
+ * Project: Portfolio_MacOS_Ui
+ * Author: anluisgl
+ * License: MIT
+ * Repository: https://github.com/anluisgl
+ */
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-image: url('img/2021-iMac-color-matching-wallpaper-idownloadblog-Grey-Dark-@AR72014.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+    "top top top"
+    "center center center"
+    "botton botton botton"
+}
+
+.top {
+    grid-area: top;
+    width: 100%;
+    height: 33.3vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+.h1top1 {
+    display: block;
+    text-align: center;
+    font-size: 170px;
+}
+
+
+
+
+
+.center {
+    grid-area: center;
+    width: 100%;
+    height: 33.3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.botton {
+    grid-area: botton;
+    width: 100%;
+    height: 33.3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    }
