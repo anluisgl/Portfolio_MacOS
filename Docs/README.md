@@ -23,7 +23,7 @@ Host the project on platforms like GitHub Pages, Netlify, or Vercel to share it 
 
 📝 License
 
-This project is licensed under the MIT License. See the LICENSE file for full details.
+This project is licensed under the MIT License. See the Docs/LICENSE file for full details.
 
 💡 Attribution
 
