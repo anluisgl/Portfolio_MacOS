@@ -46,12 +46,62 @@ document.addEventListener("DOMContentLoaded", () => {
   
 
   const knowledgeImg = document.querySelector('.imgfolder[src="img/folderknow.png"]');
-  knowledgeImg.addEventListener('click', () => updateFolderContent(`
+  knowledgeImg.addEventListener('click', () => { updateFolderContent(`
       <div class="knowledgejs">
-          <h1>TEST CONOCIMIENTOS</h1>
+
+      <div class="knowjs1">
+        <div class="traffic-lights2">
+          <span class="light2 red"></span>
+          <span class="light2 yellow"></span>
+          <span class="light2 green"></span>
+        </div>
+
+          
+
+        </div>
+
+        <div class="knowjs2">
+
+        </div>
+
+        <div class="knowjs3">
+
+        </div>
+
+        <div class="knowjs4">
+
+        </div>
+
+        <div class="knowjs5">
+
+        </div>
+
+        <div class="knowjs6">
+
+        </div>
+
+        <div class="knowjs7">
+
+        </div>
+
+        <div class="knowjs8">
+
+        </div>
+
+        <div class="knowjs9">
+
+        </div>
+    
       </div>
   `)
-)
+  const lightRedSpan2 = document.querySelector('.light2.red')
+
+  lightRedSpan2.addEventListener('click', function() {
+
+    document.getElementById('folder2').style.display = 'none';
+  })
+    document.getElementById('folder2').style.display = 'flex';
+  })
 
   const ProjectImg = document.querySelector('.imgfolder[src="img/folderwork.png"]')
   ProjectImg.addEventListener('click', () => updateFolderContent(`
