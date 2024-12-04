@@ -12,12 +12,32 @@ lightRedSpan.addEventListener('click', function() {
   document.getElementById('box').style.display = 'none';
 })
 
+// const lightRedSpan2 = document.querySelector('.light2.red')
+
+// lightRedSpan2.addEventListener('click', function() {
+
+//   document.getElementById('folder2').style.display = 'none';
+// })
 
 document.addEventListener("DOMContentLoaded", () => {
   const aboutMeImg = document.querySelector('.imgfolder[src="img/inconosmac1.png"]');
   aboutMeImg.addEventListener('click', () => updateFolderContent(`
       <div class="aboutmejs">
-          <h1>TEST ABOUT ME</h1>
+
+        <div class="traffic-lights2">
+            <span class="light2 red"></span>
+            <span class="light2 yellow"></span>
+            <span class="light2 green"></span>
+        </div>
+        
+        <div class="divimgaboutmejs">
+            <video class="imgaboutme" src="img/face.mp4" alt="" mute autoplay loop>
+        </div>
+
+        
+        <h1 class="h1aboutmejs"> Antonio Luis García Laredo </h1>
+        <h1 class="h1aboutmejs2"> Frontend Development </h1>
+
       </div>
   `))
 
