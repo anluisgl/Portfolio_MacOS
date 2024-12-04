@@ -29,7 +29,7 @@ This project is licensed under the MIT License. See the LICENSE file for full de
 
 When using this project, please credit the original author:
 
-Author: anluisgl
+Author: anluisgl (Antonio Luis G.L)
 If you create derivative works or distribute this code, include a reference to this repository or my GitHub profile.
 
 🌟 Feedback and Support
