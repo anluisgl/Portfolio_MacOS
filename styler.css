@@ -104,7 +104,7 @@
   grid-area: top1;
   display: flex;
   border-top-right-radius: 10px;
-  width: 89vw;
+  width: 99.9%;
   height: 8vh;
   color: white;
   background-color: #333333;
@@ -299,7 +299,7 @@
 .folder2 {
   grid-area: folder2;
   width: 70%;
-  height: 700px;
+  height: 77vh;
   margin-top: 40px;
   display: flex;
   justify-content: center;
