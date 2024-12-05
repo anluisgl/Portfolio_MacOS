@@ -29,7 +29,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
         
         <h1 class="h1aboutmejs"> Antonio Luis García Laredo </h1>
-        <h1 class="h1aboutmejs2"> Frontend Development </h1>
+        <h1 class="h1aboutmejs2"> - Frontend Development - </h1>
+        <p class="pboutmejs"> I’m a junior frontend developer with great potential, passionate about creating engaging and functional web interfaces. As a Shopify expert, I’ve designed and managed over five e-commerce stores, optimizing performance and user experience.
+
+        With additional skills in server administration and cybersecurity, I bring stability and security to every project.
+
+        And yes, you’re reading this on something I built from scratch. 😏 </p>
 
       </div>
   `)
@@ -49,49 +54,12 @@ document.addEventListener("DOMContentLoaded", () => {
   knowledgeImg.addEventListener('click', () => { updateFolderContent(`
       <div class="knowledgejs">
 
-      <div class="knowjs1">
         <div class="traffic-lights2">
           <span class="light2 red"></span>
           <span class="light2 yellow"></span>
           <span class="light2 green"></span>
         </div>
-
           
-
-        </div>
-
-        <div class="knowjs2">
-
-        </div>
-
-        <div class="knowjs3">
-
-        </div>
-
-        <div class="knowjs4">
-
-        </div>
-
-        <div class="knowjs5">
-
-        </div>
-
-        <div class="knowjs6">
-
-        </div>
-
-        <div class="knowjs7">
-
-        </div>
-
-        <div class="knowjs8">
-
-        </div>
-
-        <div class="knowjs9">
-
-        </div>
-    
       </div>
   `)
   const lightRedSpan2 = document.querySelector('.light2.red')
