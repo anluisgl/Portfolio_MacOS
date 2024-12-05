@@ -76,15 +76,3 @@ function updateFolderContent(content) {
   const folder2 = document.getElementById("folder2")
   folder2.innerHTML = content
 }
-
-
-
-
-
-
-
-
-document.querySelector('.light2.green').addEventListener('click', () => {
-  const folder2 = document.getElementById('folder2');
-  folder2.classList.toggle('fullscreen');
-});
