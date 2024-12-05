@@ -5,13 +5,6 @@
  * Repository: https://github.com/anluisgl
  */
 
-const lightRedSpan = document.querySelector('.light.red')
-
-lightRedSpan.addEventListener('click', function() {
-
-  document.getElementById('box').style.display = 'none';
-})
-
 document.addEventListener("DOMContentLoaded", () => {
   const aboutMeImg = document.querySelector('.imgfolder[src="img/inconosmac1.png"]');
   aboutMeImg.addEventListener('click', () => { updateFolderContent(`
@@ -83,7 +76,3 @@ function updateFolderContent(content) {
   const folder2 = document.getElementById("folder2")
   folder2.innerHTML = content
 }
-
-
-
-
