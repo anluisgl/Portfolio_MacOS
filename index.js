@@ -6,6 +6,9 @@
  */
 
 document.addEventListener("DOMContentLoaded", () => {
+
+// About Me
+
   const aboutMeImg = document.querySelector('.imgfolder[src="img/inconosmac1.png"]');
   aboutMeImg.addEventListener('click', () => { updateFolderContent(`
       <div class="aboutmejs">
@@ -41,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById('folder2').style.display = 'flex';
   })
 
-  
+// Knowledge
 
   const knowledgeImg = document.querySelector('.imgfolder[src="img/folderknow.png"]');
   knowledgeImg.addEventListener('click', () => { updateFolderContent(`
@@ -63,16 +66,31 @@ document.addEventListener("DOMContentLoaded", () => {
   })
     document.getElementById('folder2').style.display = 'flex';
   })
+  
+// Project 
 
   const ProjectImg = document.querySelector('.imgfolder[src="img/folderwork.png"]')
-  ProjectImg.addEventListener('click', () => updateFolderContent(`
+  ProjectImg.addEventListener('click', () => { updateFolderContent(`
       <div class="proyectsjs">
-          <h1>TEST PROJECTS</h1>
-      </div>
-  `))
-})
+
+          <div class="traffic-lights2">
+            <span class="light2 red"></span>
+            <span class="light2 yellow"></span>
+            <span class="light2 green"></span>
+          </div>
+          
+        </div>
+  `)
+  const lightRedSpan2 = document.querySelector('.light2.red')
+
+    lightRedSpan2.addEventListener('click', function() {
+
+    document.getElementById('folder2').style.display = 'none';
+  })
+    document.getElementById('folder2').style.display = 'flex';
+  })
 
 function updateFolderContent(content) {
   const folder2 = document.getElementById("folder2")
   folder2.innerHTML = content
-}
+}})
