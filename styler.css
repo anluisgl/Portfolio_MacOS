@@ -259,12 +259,13 @@
   width: 100px;
   height: 100px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  margin-left: 10px;
   align-items: center;
   color: white;
-  margin-left: 270px;
   margin-top: 10px;
 }
+
 
 .imgfolder {
   margin: 10px;
