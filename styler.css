@@ -174,7 +174,7 @@
   align-items: center;
   color: white;
   background: rgba(39, 39, 39, 0.873);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(15px);
 }
 
 .traffic-lights {
@@ -686,5 +686,3 @@
     display: none;
   }
 }
-
-
