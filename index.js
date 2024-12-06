@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
         
         <div class="divimgaboutmejs">
-            <video class="imgaboutme" src="img/face.mp4" alt="" mute autoplay loop></video>
+            <img class="imgaboutme" src="img/face.png" alt="">
         </div>
 
         

@@ -427,8 +427,6 @@
   border-radius: 10px;
   width: 180px;
   height: 180px;
-  box-shadow: 0 10px 50px rgb(0, 0, 0);
-  border: 1px solid rgba(255, 255, 255, 0.392);
 }
 
 .knowledgejs {
