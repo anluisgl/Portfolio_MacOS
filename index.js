@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         With additional skills in server administration and cybersecurity, I bring stability and security to every project.
 
-        And yes, you’re reading this on something I built from scratch. 😏 </p>
+        And yes, you’re reading this on something I built from scratch. </p>
 
       </div>
   `)
