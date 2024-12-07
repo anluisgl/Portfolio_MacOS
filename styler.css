@@ -245,7 +245,6 @@
   width: 86.2vw;
   height: 77vh;
   justify-content: center;
-  align-items: top;
   color: white;
   background-color: #202020;
   display: grid;
@@ -717,9 +716,6 @@ text-align: center;
     line-height: 1.5;
     background-color: #202020;
     background-image: none;
-    background-repeat: none;
-    background-size: none;
-    background-position: none;
   }
 }
 
@@ -753,7 +749,6 @@ text-align: center;
   .imgdock {
     width: 44px;
     height: 44px;
-    margin-top: none;
     object-fit: contain;
   }
 
@@ -780,7 +775,6 @@ text-align: center;
   .imgdock {
     width: 54px;
     height: 54px;
-    margin-top: none;
     object-fit: contain;
   }
 
