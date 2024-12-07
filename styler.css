@@ -372,10 +372,14 @@
   object-fit: contain;
 }
 
+.finder {
+  margin-left: 5px;
+}
+
 .line {
   margin-left: 10px;
   margin-right: 10px;
-  margin-top: 6px;
+  margin-top: 8px;
   height: 37px;
   opacity: 60%;
 }
