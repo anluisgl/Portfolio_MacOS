@@ -168,7 +168,7 @@
   display: block;
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
-  width: 11vw;
+  width: 12.8vw;
   height: 85vh;
   justify-content: center;
   align-items: center;
@@ -242,7 +242,7 @@
 .file1 {
   grid-area: file1;
   border-bottom-right-radius: 10px;
-  width: 88vw;
+  width: 86vw;
   height: 77vh;
   justify-content: center;
   align-items: top;
@@ -365,24 +365,22 @@
 }
 
 .imgdock {
-  width: 50px;
-  height: 50px;
-  margin-top: 2px;
-  display: flex;
-  justify-content: center;
+  width: 40px;
+  height: 40px;
   align-items: center;
+  justify-content: center;
   object-fit: contain;
 }
 
-.basura {
-  margin-left: 10px;
+.line {
+  height: 30px;
+  opacity: 60%;
+  align-items: center;
+  justify-content: center;
 }
 
-.line {
-  width: 1px;
-  height: 40px;
-  margin-top: 8px;
-  margin-left: 10px;
+.basura {
+  
 }
 
 /** CSS JS.ver */
