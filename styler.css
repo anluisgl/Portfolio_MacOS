@@ -242,7 +242,7 @@
 .file1 {
   grid-area: file1;
   border-bottom-right-radius: 10px;
-  width: 86vw;
+  width: 86.2vw;
   height: 77vh;
   justify-content: center;
   align-items: top;
@@ -270,6 +270,7 @@
 .imgfolder {
   margin: 10px;
   width: 80px;
+  cursor: pointer;
 }
 
 .imgfolder2 {
