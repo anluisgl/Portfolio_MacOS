@@ -16,7 +16,7 @@
     "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background-image: url("img/wallpaper.png");
+  background-image: url("img/wallpapaer.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -173,8 +173,8 @@
   justify-content: center;
   align-items: center;
   color: white;
-  background: rgba(39, 39, 39, 0.873);
-  backdrop-filter: blur(15px);
+  background: rgba(39, 39, 39, 0.96);
+  backdrop-filter: blur(20px);
 }
 
 .traffic-lights {
@@ -349,7 +349,8 @@
   height: 6vh;
   display: flex;
   border-radius: 15px;
-  backdrop-filter: blur(25px);
+  backdrop-filter: blur(20px);
+  background-color: rgba(0, 0, 0, 0.249);
   border: 1px solid #9a9a9a93;
   color: white;
   display: grid;
