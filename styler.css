@@ -365,22 +365,18 @@
 }
 
 .imgdock {
-  width: 40px;
-  height: 40px;
-  align-items: center;
-  justify-content: center;
+  width: 45px;
+  height: 45px;
   object-fit: contain;
 }
 
 .line {
-  height: 30px;
+  height: 37px;
   opacity: 60%;
-  align-items: center;
-  justify-content: center;
 }
 
 .basura {
-  
+
 }
 
 /** CSS JS.ver */
