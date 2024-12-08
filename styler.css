@@ -789,3 +789,30 @@ text-align: center;
     display: none;
   }
 }
+
+@media (max-height: 900px) {
+
+  .docki {
+    grid-area: docki;
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+
+  .imgdock {
+    width: 44px;
+    height: 44px;
+    object-fit: contain;
+  }
+
+  .line {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 3px;
+    height: 37px;
+    opacity: 60%;
+  }
+  .foldericon {
+    display: none;
+  }
+}
