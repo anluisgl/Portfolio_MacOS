@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // About Me
 
-  const aboutMeImg = document.querySelector('.imgfolder[src="img/inconosmac1.png"]');
+  const aboutMeImg = document.querySelector('.imgfolder[src="img/inconosmac1.webp"]');
   aboutMeImg.addEventListener('click', () => { updateFolderContent(`
       <div class="aboutmejs">
 
@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Knowledge
 
-  const knowledgeImg = document.querySelector('.imgfolder[src="img/folderknow.png"]');
+  const knowledgeImg = document.querySelector('.imgfolder[src="img/folderknow.webp"]');
   knowledgeImg.addEventListener('click', () => { updateFolderContent(`
       <div class="knowledgejs">
 
@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
 // Project 
 
-  const ProjectImg = document.querySelector('.imgfolder[src="img/folderwork.png"]')
+  const ProjectImg = document.querySelector('.imgfolder[src="img/folderwork.webp"]')
   ProjectImg.addEventListener('click', () => { updateFolderContent(`
       <div class="proyectsjs">
 
