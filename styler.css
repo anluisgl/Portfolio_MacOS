@@ -92,12 +92,12 @@
 .box {
   display: grid;
   padding: 10px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto auto;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: auto auto auto;
   grid-template-areas:
-    "menu1 top1 top1"
-    "menu1 file1 file1"
-    "dockx1 dock dock";
+    "menu1 top1 top1 top1 top1 top1 top1 top1 top1"
+    "menu1 file1 file1 file1 file1 file1 file1 file1 file1"
+    "dockx1 dock dock dock dock dock dock dock dock";
 }
 
 .top1 {
@@ -105,7 +105,7 @@
   display: flex;
   border-top-right-radius: 10px;
   width: 100%;
-  height: 8vh;
+  height: 100%;
   color: white;
   background-color: #333333;
   display: grid;
@@ -168,8 +168,8 @@
   display: block;
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
-  width: 12.8vw;
-  height: 85vh;
+  width: 100%;
+  height: 100%;
   justify-content: center;
   align-items: center;
   color: white;
@@ -242,7 +242,7 @@
 .file1 {
   grid-area: file1;
   border-bottom-right-radius: 10px;
-  width: 86.2vw;
+  width: 100%;
   height: 77vh;
   justify-content: center;
   color: white;
