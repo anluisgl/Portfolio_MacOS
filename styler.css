@@ -310,6 +310,15 @@
   background-color: #202020;
   box-shadow: 0 20px 50px rgb(0, 0, 0);
   border-radius: 10px;
+  opacity: 0;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.folder2.active {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .dockx1 {
@@ -368,6 +377,7 @@
 .imgdock {
   width: 50px;
   height: 50px;
+  margin-top: 3px;
   object-fit: contain;
 }
 
@@ -468,7 +478,6 @@
 .light2.green {
   background-color: #27c93f;
 }
-
 
 /** CSS MOBILE.ver */
 

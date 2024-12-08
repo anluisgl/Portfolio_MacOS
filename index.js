@@ -7,90 +7,102 @@
 
 document.addEventListener("DOMContentLoaded", () => {
 
-// About Me
-
-  const aboutMeImg = document.querySelector('.imgfolder[src="img/inconosmac1.webp"]');
-  aboutMeImg.addEventListener('click', () => { updateFolderContent(`
+  // About Me
+  const aboutMeImg = document.querySelector('.imgfolder[src="img/inconosmac1.webp"]')
+  aboutMeImg.addEventListener('click', () => {
+    updateFolderContent(`
       <div class="aboutmejs">
-
-        <div class="traffic-lights2">
-            <span class="light2 red"></span>
-            <span class="light2 yellow"></span>
-            <span class="light2 green"></span>
-        </div>
-        
-        <div class="divimgaboutmejs">
-            <img class="imgaboutme" src="img/face.webp" alt="">
-        </div>
-
-        
-        <h1 class="h1aboutmejs"> Antonio Luis García Laredo </h1>
-        <h1 class="h1aboutmejs2"> - Frontend Development - </h1>
-        <p class="pboutmejs"> I’m a junior frontend developer with great potential, passionate about creating engaging and functional web interfaces. As a Shopify expert, I’ve designed and managed over five e-commerce stores, optimizing performance and user experience.
-
-        With additional skills in server administration and cybersecurity, I bring stability and security to every project.
-
-        And yes, you’re reading this on something I built from scratch. </p>
-
-      </div>
-  `)
-
-  const lightRedSpan2 = document.querySelector('.light2.red')
-
-  lightRedSpan2.addEventListener('click', function() {
-
-    document.getElementById('folder2').style.display = 'none';
-  })
-    document.getElementById('folder2').style.display = 'flex';
-  })
-
-// Knowledge
-
-  const knowledgeImg = document.querySelector('.imgfolder[src="img/folderknow.webp"]');
-  knowledgeImg.addEventListener('click', () => { updateFolderContent(`
-      <div class="knowledgejs">
-
         <div class="traffic-lights2">
           <span class="light2 red"></span>
           <span class="light2 yellow"></span>
           <span class="light2 green"></span>
         </div>
-          
-      </div>
-  `)
-  const lightRedSpan2 = document.querySelector('.light2.red')
-
-  lightRedSpan2.addEventListener('click', function() {
-
-    document.getElementById('folder2').style.display = 'none';
-  })
-    document.getElementById('folder2').style.display = 'flex';
-  })
-  
-// Project 
-
-  const ProjectImg = document.querySelector('.imgfolder[src="img/folderwork.webp"]')
-  ProjectImg.addEventListener('click', () => { updateFolderContent(`
-      <div class="proyectsjs">
-
-          <div class="traffic-lights2">
-            <span class="light2 red"></span>
-            <span class="light2 yellow"></span>
-            <span class="light2 green"></span>
-          </div>
-          
+        <div class="divimgaboutmejs">
+          <img class="imgaboutme" src="img/face.webp" alt="">
         </div>
-  `)
-  const lightRedSpan2 = document.querySelector('.light2.red')
+        <h1 class="h1aboutmejs">Antonio Luis García Laredo</h1>
+        <h1 class="h1aboutmejs2">- Frontend Development -</h1>
+        <p class="pboutmejs">I’m a frontend developer constantly learning and passionate about creating engaging and functional web experiences. I also specialize in building and managing ecommerce platforms, mainly on Shopify, with additional experience in WordPress.
 
-    lightRedSpan2.addEventListener('click', function() {
+          My creative mindset and enthusiasm for learning drive me to give 100% when something sparks my interest. I firmly believe in mastering every skill I find valuable, which allows me to deliver innovative and effective solutions for any project I work on.
 
-    document.getElementById('folder2').style.display = 'none';
+          With every step, I aim to blend technical expertise with creativity, turning ideas into impactful digital realities.</p>
+      </div>
+    `)
+
+    const folder2 = document.getElementById("folder2")
+    folder2.style.display = "flex"
+    requestAnimationFrame(() => {
+      folder2.classList.add("active")
+    });
+
+    const lightRedSpan2 = document.querySelector('.light2.red')
+    lightRedSpan2.addEventListener('click', () => {
+      folder2.classList.remove("active")
+      setTimeout(() => {
+        folder2.style.display = "none"
+      }, 300)
+    })
   })
-    document.getElementById('folder2').style.display = 'flex';
+
+  // Knowledge
+  const knowledgeImg = document.querySelector('.imgfolder[src="img/folderknow.webp"]')
+  knowledgeImg.addEventListener('click', () => {
+    updateFolderContent(`
+      <div class="knowledgejs">
+        <div class="traffic-lights2">
+          <span class="light2 red"></span>
+          <span class="light2 yellow"></span>
+          <span class="light2 green"></span>
+        </div>
+      </div>
+    `)
+
+    const folder2 = document.getElementById("folder2")
+    folder2.style.display = "flex"
+    requestAnimationFrame(() => {
+      folder2.classList.add("active")
+    })
+
+    const lightRedSpan2 = document.querySelector('.light2.red')
+    lightRedSpan2.addEventListener('click', () => {
+      folder2.classList.remove("active")
+      setTimeout(() => {
+        folder2.style.display = "none"
+      }, 300)
+    })
   })
 
-function updateFolderContent(content) {
-  const folder2 = document.getElementById("folder2")
-  folder2.innerHTML = content
-}})
+  // Projects
+  const ProjectImg = document.querySelector('.imgfolder[src="img/folderwork.webp"]')
+  ProjectImg.addEventListener('click', () => {
+    updateFolderContent(`
+      <div class="proyectsjs">
+        <div class="traffic-lights2">
+          <span class="light2 red"></span>
+          <span class="light2 yellow"></span>
+          <span class="light2 green"></span>
+        </div>
+      </div>
+    `)
+
+    const folder2 = document.getElementById("folder2")
+    folder2.style.display = "flex"
+    requestAnimationFrame(() => {
+      folder2.classList.add("active")
+    })
+
+    const lightRedSpan2 = document.querySelector('.light2.red')
+    lightRedSpan2.addEventListener('click', () => {
+      folder2.classList.remove("active")
+      setTimeout(() => {
+        folder2.style.display = "none"
+      }, 300)
+    })
+  })
+
+  function updateFolderContent(content) {
+    const folder2 = document.getElementById("folder2")
+    folder2.innerHTML = content;
+  }
+})
