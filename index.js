@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
         
         <div class="divimgaboutmejs">
-            <img class="imgaboutme" src="img/face.png" alt="">
+            <img class="imgaboutme" src="img/face.webp" alt="">
         </div>
 
         
