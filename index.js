@@ -22,11 +22,16 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
         <h1 class="h1aboutmejs">Antonio Luis García Laredo</h1>
         <h1 class="h1aboutmejs2">- Frontend Development -</h1>
-        <p class="pboutmejs">I’m a frontend developer constantly learning and passionate about creating engaging and functional web experiences. I also specialize in building and managing ecommerce platforms, mainly on Shopify, with additional experience in WordPress.
+        <p class="pboutmejs">
+            I’m a frontend developer constantly learning and passionate about creating engaging and functional web experiences. I also specialize in building and managing ecommerce platforms, mainly on Shopify, with additional experience in WordPress.
+        </p>
+        <p class="pboutmejs">
+            My creative mindset and enthusiasm for learning drive me to give 100% when something sparks my interest. I firmly believe in mastering every skill I find valuable, which allows me to deliver innovative and effective solutions for any project I work on.
+        </p>
+        <p class="pboutmejs">
+            With every step, I aim to blend technical expertise with creativity, turning ideas into impactful digital realities.
+        </p>
 
-          My creative mindset and enthusiasm for learning drive me to give 100% when something sparks my interest. I firmly believe in mastering every skill I find valuable, which allows me to deliver innovative and effective solutions for any project I work on.
-
-          With every step, I aim to blend technical expertise with creativity, turning ideas into impactful digital realities.</p>
       </div>
     `)
 
