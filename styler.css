@@ -26,6 +26,32 @@
 
 /** CSS PC.ver */
 
+#video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+#intro-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+body.hidden {
+  display: none;
+}
+
+body.visible {
+  display: block;
+  overflow: auto;
+}
+
 .toolbar {
   grid-area: toolbar;
   display: flex;
@@ -721,6 +747,9 @@ text-align: center;
     display: none;
   }
   .toolbar2 {
+    display: none;
+  }
+  #video-container {
     display: none;
   }
   .body {
