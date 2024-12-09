@@ -5,31 +5,6 @@
  * Repository: https://github.com/anluisgl
  */
 
-document.addEventListener('DOMContentLoaded', () => {
-  const videoContainer = document.getElementById('video-container')
-  const introVideo = document.getElementById('intro-video')
-  const body = document.body
-
-  introVideo.muted = true;
-
-  introVideo.play().catch((error) => {
-      console.log('Reproducción automática bloqueada:', error)
-  })
-
-  introVideo.addEventListener('ended', () => {
-      videoContainer.style.opacity = '0'
-
-      setTimeout(() => {
-          videoContainer.style.display = 'none'
-          body.classList.remove('hidden')
-          body.classList.add('visible')
-      }, 1500)
-  })
-})
-
-
-
-
 document.addEventListener("DOMContentLoaded", () => {
 
   // About Me
