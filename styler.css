@@ -311,15 +311,13 @@
   box-shadow: 0 20px 50px rgb(0, 0, 0);
   border-radius: 10px;
   opacity: 0;
-  opacity: 0;
   transform: translateY(50px);
-  transition: opacity 0.4s ease, transform 0.4s ease;
   transition: all 0.3s ease;
 }
 
 .folder2.active {
   opacity: 1;
-  transform: translateY(0);
+  transform: translateY(-80px);
 }
 
 .folder2.expandido {
