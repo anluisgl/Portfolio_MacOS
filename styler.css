@@ -751,34 +751,7 @@ text-align: center;
   }
 }
 
-
-@media (max-width: 1500px) {
-  .docki {
-    grid-area: docki;
-    width: 100%;
-    height: 100%;
-    display: flex;
-  }
-
-  .imgdock {
-    width: 44px;
-    height: 44px;
-    object-fit: contain;
-  }
-
-  .line {
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 3px;
-    height: 37px;
-    opacity: 60%;
-  }
-  .foldericon {
-    display: none;
-  }
-}
-
-@media (max-width: 1080px) {
+@media screen and (width: 1920px) and (height: 1080px) {
   .docki {
     grid-area: docki;
     width: 100%;
@@ -799,35 +772,30 @@ text-align: center;
     height: 50px;
     opacity: 60%;
   }
-
-  .foldericon {
-    display: none;
-  }
 }
 
-@media (max-height: 900px) {
+@media screen and (width: 1366px) and (height: 768px) {
+ .pboutmejs {
+  font-size: 13px;
+ }
+ .docki {
+  grid-area: docki;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
 
-  .docki {
-    grid-area: docki;
-    width: 100%;
-    height: 100%;
-    display: flex;
-  }
+.imgdock {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
 
-  .imgdock {
-    width: 44px;
-    height: 44px;
-    object-fit: contain;
-  }
-
-  .line {
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 3px;
-    height: 37px;
-    opacity: 60%;
-  }
-  .foldericon {
-    display: none;
-  }
+.line {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 6px;
+  height: 30px;
+  opacity: 60%;
+}
 }
