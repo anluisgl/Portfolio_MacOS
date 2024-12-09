@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
       folder2.classList.add("active")
     });
 
-    // Add functionality for green light
+    
     const lightGreenSpan2 = document.querySelector('.light2.green')
     lightGreenSpan2.addEventListener('click', () => {
       folder2.classList.toggle("expandido")

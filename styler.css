@@ -323,9 +323,10 @@
 }
 
 .folder2.expandido {
-  width: 99%;
-  height: 103%;
+  width: 98%;
+  height: 101%;
 }
+
 
 .dockx1 {
   grid-area: dockx1;
