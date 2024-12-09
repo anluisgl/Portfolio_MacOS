@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="traffic-lights2">
           <span class="light2 red"></span>
           <span class="light2 yellow"></span>
-          <span class="light2 green"></span>
+          <span class="light2 green" id="cambiarTamano"></span>
         </div>
         <div class="divimgaboutmejs">
           <img class="imgaboutme" src="img/face.webp" alt="">
@@ -36,6 +36,12 @@ document.addEventListener("DOMContentLoaded", () => {
       folder2.classList.add("active")
     });
 
+    // Add functionality for green light
+    const lightGreenSpan2 = document.querySelector('.light2.green')
+    lightGreenSpan2.addEventListener('click', () => {
+      folder2.classList.toggle("expandido")
+    })
+
     const lightRedSpan2 = document.querySelector('.light2.red')
     lightRedSpan2.addEventListener('click', () => {
       folder2.classList.remove("active")
@@ -53,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="traffic-lights2">
           <span class="light2 red"></span>
           <span class="light2 yellow"></span>
-          <span class="light2 green"></span>
+          <span class="light2 green" id="cambiarTamano"></span>
         </div>
       </div>
     `)
@@ -62,6 +68,11 @@ document.addEventListener("DOMContentLoaded", () => {
     folder2.style.display = "flex"
     requestAnimationFrame(() => {
       folder2.classList.add("active")
+    })
+
+    const lightGreenSpan2 = document.querySelector('.light2.green')
+    lightGreenSpan2.addEventListener('click', () => {
+      folder2.classList.toggle("expandido")
     })
 
     const lightRedSpan2 = document.querySelector('.light2.red')
@@ -81,7 +92,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="traffic-lights2">
           <span class="light2 red"></span>
           <span class="light2 yellow"></span>
-          <span class="light2 green"></span>
+          <span class="light2 green" id="cambiarTamano"></span>
         </div>
       </div>
     `)
@@ -90,6 +101,11 @@ document.addEventListener("DOMContentLoaded", () => {
     folder2.style.display = "flex"
     requestAnimationFrame(() => {
       folder2.classList.add("active")
+    })
+
+    const lightGreenSpan2 = document.querySelector('.light2.green')
+    lightGreenSpan2.addEventListener('click', () => {
+      folder2.classList.toggle("expandido")
     })
 
     const lightRedSpan2 = document.querySelector('.light2.red')

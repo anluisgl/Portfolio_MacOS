@@ -314,11 +314,17 @@
   opacity: 0;
   transform: translateY(50px);
   transition: opacity 0.4s ease, transform 0.4s ease;
+  transition: all 0.3s ease;
 }
 
 .folder2.active {
   opacity: 1;
   transform: translateY(0);
+}
+
+.folder2.expandido {
+  width: 99%;
+  height: 103%;
 }
 
 .dockx1 {
@@ -377,7 +383,6 @@
 .imgdock {
   width: 50px;
   height: 50px;
-  margin-top: 3px;
   object-fit: contain;
 }
 
