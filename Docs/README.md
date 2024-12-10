@@ -2,7 +2,7 @@
 
 📖 Description
 
-Portfolio_MacOS_Ui is a sleek and modern project that mimics the look and feel of the macOS interface. This portfolio design demonstrates a blend of elegant visuals and interactive functionality, perfect for showcasing your skills and projects in a unique way. Feel free to use, modify, and adapt this project while adhering to the license terms.
+Portfolio_MacOS is a sleek and modern project that mimics the look and feel of the macOS interface. This portfolio design demonstrates a blend of elegant visuals and interactive functionality, perfect for showcasing your skills and projects in a unique way. Feel free to use, modify, and adapt this project while adhering to the license terms.
 
 🛠️ Features
 
