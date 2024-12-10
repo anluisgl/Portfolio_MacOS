@@ -798,3 +798,29 @@ text-align: center;
   opacity: 60%;
 }
 }
+
+@media (max-width: 1460px) {
+  .pboutmejs {
+   font-size: 13px;
+  }
+  .docki {
+   grid-area: docki;
+   width: 100%;
+   height: 100%;
+   display: flex;
+ }
+ 
+ .imgdock {
+   width: 45px;
+   height: 45px;
+   object-fit: contain;
+ }
+ 
+ .line {
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-top: 6px;
+   height: 30px;
+   opacity: 60%;
+ }
+ }
