@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <h1 class="h1aboutmejs">Antonio Luis García Laredo</h1>
         <h1 class="h1aboutmejs2">- Frontend Development -</h1>
         <p class="pboutmejs">
-            Frontend developer specializing in creating functional and engaging web experiences, with a focus on ecommerce platforms like Shopify and additional expertise in WordPress.
+            Frontend developer specializing in creating functional and engaging web experiences, with a strong focus on crafting interactive and visually appealing user interfaces.
         </p>
         <p class="pboutmejs">
             Committed to continuous learning and innovation to deliver effective solutions for diverse projects, ensuring mastery of every acquired skill.
@@ -31,6 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <p class="pboutmejs">
             Focused on blending technical precision with creativity to transform ideas into impactful digital realities.
         </p>
+
 
       </div>
     `)
