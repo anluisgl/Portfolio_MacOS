@@ -1,8 +1,8 @@
-🖥️ Portfolio_MacOS_Ui
+🖥️ Portfolio_MacOS
 
 📖 Description
 
-Portfolio_MacOS_Ui is a sleek and modern project that mimics the look and feel of the macOS interface. This portfolio design demonstrates a blend of elegant visuals and interactive functionality, perfect for showcasing your skills and projects in a unique way. Feel free to use, modify, and adapt this project while adhering to the license terms.
+Portfolio_MacOS is a sleek and modern project that mimics the look and feel of the macOS interface. This portfolio design demonstrates a blend of elegant visuals and interactive functionality, perfect for showcasing your skills and projects in a unique way. Feel free to use, modify, and adapt this project while adhering to the license terms.
 
 🛠️ Features
 
@@ -13,7 +13,7 @@ Customizable: Easily modify colors, fonts, and components to suit your personal 
 🚀 How to Use
 
 Clone the Repository:
-git clone https://github.com/anluisgl/Portfolio_MacOS_Ui.git
+git clone https://github.com/anluisgl/Portfolio_MacOS.git
 Explore the Code:
 Open the files in your favorite text editor and customize as needed.
 Run the Project:
