@@ -123,6 +123,59 @@ document.addEventListener("DOMContentLoaded", () => {
     })
   })
 
+    // Musci
+    const Music = document.querySelector('.imgfolder[src="img/music.webp"]')
+    Music.addEventListener('click', () => {
+      updateFolderContent(`
+        <div class="music">
+
+          <div class="musicmenu">
+            <div class="traffic-lights2">
+            <span class="light2 red"></span>
+            <span class="light2 yellow"></span>
+            <span class="light2 green" id="cambiarTamano"></span>
+            </div>
+          </div>
+          <div class="play"></div>
+          <div class="album">
+          <div class="linealbum1">
+           <img class="imgalbum" src="img/ye.webp" alt=""/>
+           <img class="imgalbum" src="img/red.webp" alt=""/>
+           </div>
+           <div class="linealbum1">
+           <img class="imgalbum" src="img/chroma.webp" alt=""/>
+           <img class="imgalbum" src="img/mrm.webp" alt=""/>
+           </div>
+           <div class="linealbum1">
+           <img class="imgalbum" src="img/mybdtf.webp" alt=""/>
+           <img class="imgalbum" src="img/jsk.webp" alt=""/>
+           </div>
+
+          </div>
+          
+        </div>
+      `)
+  
+      const folder2 = document.getElementById("folder2")
+      folder2.style.display = "flex"
+      requestAnimationFrame(() => {
+        folder2.classList.add("active")
+      })
+
+      const lightGreenSpan2 = document.querySelector('.light2.green')
+      lightGreenSpan2.addEventListener('click', () => {
+        folder2.classList.toggle("expandido")
+      })
+  
+      const lightRedSpan2 = document.querySelector('.light2.red')
+      lightRedSpan2.addEventListener('click', () => {
+        folder2.classList.remove("active")
+        setTimeout(() => {
+          folder2.style.display = "none"
+        }, 300)
+      })
+    })
+
   function updateFolderContent(content) {
     const folder2 = document.getElementById("folder2")
     folder2.innerHTML = content;
