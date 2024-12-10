@@ -1,5 +1,5 @@
 /**
- * Project: Portfolio_MacOS_Ui
+ * Project: Portfolio_MacOS
  * Author: anluisgl
  * License: MIT
  * Repository: https://github.com/anluisgl
