@@ -313,6 +313,7 @@
   opacity: 0;
   transform: translateY(50px);
   transition: all 0.3s ease;
+
 }
 
 .folder2.active {
