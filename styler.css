@@ -42,6 +42,7 @@
 
 .toolbar1 {
   grid-area: toolbar1;
+  margin-top: 3px;
   display: flex;
   align-items: center;
   justify-content: left;
@@ -51,6 +52,7 @@
   width: 15px;
   height: 15px;
   margin-left: 10px;
+  cursor: pointer;
 }
 
 .h1toolbar1finder {
@@ -59,6 +61,7 @@
   align-items: center;
   justify-content: left;
   margin-left: 14px;
+  cursor: pointer;
 }
 
 .ptoolbar1 {
@@ -67,10 +70,12 @@
   align-items: center;
   justify-content: left;
   margin-left: 18px;
+  cursor: pointer;
 }
 
 .toolbar2 {
   grid-area: toolbar2;
+  margin-top: 3px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
