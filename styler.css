@@ -233,10 +233,17 @@
 }
 
 .h1section {
-  color: rgba(255, 255, 255, 0.575);
+  color: rgba(255, 255, 255, 0.917);
   font-size: 13px;
+  font-weight: 440;
   margin: 10px;
   margin-left: 25px;
+  display: flex;
+}
+
+.imgsection {
+  width: 17px;
+  margin-right: 6px;
 }
 
 .margintop {
@@ -252,6 +259,7 @@
   border-radius: 7px;
   width: 127px;
   height: 30px;
+  margin-left: 20px;
   background-color: #ffffff2f;
   padding: 5px;
 }
