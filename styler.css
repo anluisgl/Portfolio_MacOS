@@ -233,14 +233,19 @@
 }
 
 .h1section {
-  color: rgba(255, 255, 255, 0.917);
+  color: rgba(255, 255, 255, 0.506);
   font-size: 13px;
   font-weight: 440;
   margin: 10px;
   margin-left: 25px;
   display: flex;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
 }
 
+.h1section:hover {
+  color: #ffffff;
+}
 .imgsection {
   width: 17px;
   margin-right: 6px;
@@ -260,8 +265,9 @@
   width: 127px;
   height: 30px;
   margin-left: 20px;
-  background-color: #ffffff2f;
+  background-color: #ffffff1f;
   padding: 5px;
+  color: white;
 }
 
 .file1 {
@@ -275,7 +281,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto;
-  grid-template-areas: "folder1 folder2";
+  grid-template-areas:
+   "folder1 folder2";
 }
 
 .folder1 {
@@ -295,11 +302,6 @@
   margin: 10px;
   width: 80px;
   cursor: pointer;
-}
-
-.imgfolder2 {
-  margin: 10px;
-  width: 90px;
 }
 
 .thefolder {
@@ -337,7 +339,6 @@
   opacity: 0;
   transform: translateY(50px);
   transition: all 0.3s ease;
-
 }
 
 .folder2.active {
@@ -349,7 +350,6 @@
   width: 98%;
   height: 101%;
 }
-
 
 .dockx1 {
   grid-area: dockx1;
