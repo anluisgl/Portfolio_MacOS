@@ -76,6 +76,7 @@
 .toolbar2 {
   grid-area: toolbar2;
   margin-top: 3px;
+  margin-right: 10px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -85,7 +86,6 @@
   color: white;
   font-size: 13px;
   align-items: center;
-  margin-right: 15px;
 }
 
 .imgtoolbar2 {

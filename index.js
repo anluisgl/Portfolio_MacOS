@@ -32,7 +32,8 @@ function actualizarHora() {
   const ahora = new Date();
   const horas = agregarCero(ahora.getHours());
   const minutos = agregarCero(ahora.getMinutes());
-  reloj.textContent = `${horas}:${minutos}`;
+  const segundos = agregarCero(ahora.getSeconds());
+  reloj.textContent = `${horas}:${minutos}:${segundos}`;
 }
 
 function agregarCero(numero) {
