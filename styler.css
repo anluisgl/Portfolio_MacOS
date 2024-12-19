@@ -86,6 +86,7 @@
   color: white;
   font-size: 13px;
   align-items: center;
+  width: 52px;
 }
 
 .imgtoolbar2 {
@@ -301,6 +302,7 @@
   margin: 10px;
   width: 80px;
   cursor: pointer;
+  pointer-events: none;
 }
 
 .thefolder {
@@ -311,6 +313,7 @@
 .namefile {
   text-align: center;
   font-size: 13px;
+  pointer-events: none;
 }
 
 .imgfile {

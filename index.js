@@ -12,7 +12,12 @@ function clickButton(e){
 
   fetch(e.target.dataset.page)
     .then(data => data.text())
-    .then(text => folder2.innerHTML = text)
+    .then(text => {
+      
+      folder2.innerHTML = text;
+      folder2.style.opacity = 1;
+
+    })
 }
 
 links.forEach(link => {
