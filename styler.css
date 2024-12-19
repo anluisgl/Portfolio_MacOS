@@ -16,7 +16,7 @@
     "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background-image: url("img/wallpaper.webp");
+  background-image: url("img/SequoiaLight.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -130,6 +130,12 @@
   margin-bottom: 10px;
   width: 25px;
   margin-left: 10px;
+  filter: contrast(0.1);
+  transition: filter 0.3s ease;
+}
+
+.imgsvg:hover {
+  filter: contrast(1);
 }
 
 .h1top1 {
