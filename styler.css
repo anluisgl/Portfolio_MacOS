@@ -329,7 +329,7 @@
 .folder2 {
   grid-area: folder2;
   width: 70%;
-  height: 77vh;
+  height: 70vh;
   margin-top: 40px;
   justify-content: center;
   align-items: center;
@@ -449,6 +449,7 @@
 }
 
 .h1aboutmejs {
+  font-style: normal;
   color: rgb(255, 255, 255);
   margin-top: 10px;
   font-size: 30px;
@@ -505,6 +506,12 @@
 
 .light2.red {
   background-color: #ff5f56;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.light2.red:hover {
+  transform: scale(1.2);
 }
 
 .light2.yellow {

@@ -8,12 +8,15 @@
 let links = document.querySelectorAll(".link")
 let folder2 = document.querySelector(".folder2")
 
-function clickButton(e) {
+function clickButton(e){
+
   fetch(e.target.dataset.page)
     .then(data => data.text())
     .then(text => {
-      folder2.innerHTML = text
-      folder2.style.opacity = 1
+      
+      folder2.innerHTML = text;
+      folder2.style.opacity = 1;
+
     })
 }
 
@@ -31,12 +34,6 @@ function closeWindowOnClick() {
 }
 
 closeWindowOnClick()
-
-
-
-
-
-
 
 
 
