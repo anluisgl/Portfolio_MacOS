@@ -89,15 +89,23 @@
   margin-right: 15px;
 }
 
+
+
+/* 
+  Se utiliza 'width: 100%' y 'height: 100%' en lugar de 'vw' y 'vh' 
+  para evitar problemas de compatibilidad en Firefox, donde las unidades 
+  de viewport pueden comportarse de forma inesperada en ciertos casos.
+*/
+
 .box {
   display: grid;
   padding: 10px;
-  grid-template-columns: repeat(9, 1fr);
-  grid-template-rows: auto auto auto;
+  grid-template-columns: 1fr 8fr;
+  grid-template-rows: auto 1fr auto;
   grid-template-areas:
-    "menu1 top1 top1 top1 top1 top1 top1 top1 top1"
-    "menu1 file1 file1 file1 file1 file1 file1 file1 file1"
-    "dockx1 dock dock dock dock dock dock dock dock";
+    "menu1 top1"
+    "menu1 file1"
+    "dockx1 dock";
 }
 
 .top1 {
