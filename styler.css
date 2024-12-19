@@ -94,12 +94,6 @@
   margin-right: 15px;
 }
 
-/* 
-  Se utiliza 'width: 100%' y 'height: 100%' en lugar de 'vw' y 'vh' 
-  para evitar problemas de compatibilidad en Firefox, donde las unidades 
-  de viewport pueden comportarse de forma inesperada en ciertos casos.
-*/
-
 .box {
   display: grid;
   padding: 10px;
