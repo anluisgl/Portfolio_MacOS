@@ -323,7 +323,7 @@
 .folder2 {
   grid-area: folder2;
   width: 70%;
-  height: 74vh;
+  height: 100%;
   justify-content: center;
   align-items: center;
   color: rgb(0, 0, 0);
@@ -402,12 +402,13 @@
 .imgdock {
   width: 50px;
   height: 50px;
+  margin: 2px;
   object-fit: contain;
   transition: transform 0.3s ease;
 }
 
 .imgdock:hover {
-  transform: translateY(-10px);
+  transform: translateY(-15px);
 }
 
 .finder {
@@ -737,14 +738,6 @@
   height: 100%;
   display: flex;
   background-color: #333333;
-}
-
-.myp23 {
-  grid-area: myp23;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  background-color: #202121;
 }
 
 .h1proyectsjs {

@@ -70,3 +70,6 @@ function agregarCero(numero) {
 
 setInterval(actualizarHora, 1000);
 actualizarHora();
+
+
+
