@@ -332,18 +332,7 @@
   box-shadow: 0 20px 50px rgb(0, 0, 0);
   border-radius: 10px;
   opacity: 0;
-  transform: translateY(50px);
   transition: all 0.3s ease;
-}
-
-.folder2.active {
-  opacity: 1;
-  transform: translateY(-80px);
-}
-
-.folder2.expandido {
-  width: 98%;
-  height: 101%;
 }
 
 .dockx1 {
@@ -862,7 +851,34 @@
   width: 100%;
   height: 30px;
   display: flex;
+  justify-content: left;
+  align-items: center;
   border-bottom: 1px solid rgba(255, 255, 255, 0.241);
+}
+
+.h1menuvscode2 {
+  color: rgba(255, 255, 255, 0.773);
+  font-size: 13px;
+  text-align: left;
+  font-weight: 300;
+  display: flex;
+  background-color: #1f1f1f62;
+  border-right: 1px solid rgba(255, 255, 255, 0.241);
+  padding: 5px 10px;
+}
+
+.menuvscodeselect {
+  background-color: #1f1f1f;
+  padding: 5px;
+}
+
+.imgvscodex {
+  margin-left: 10px;
+  filter: opacity(0.5);
+}
+
+.jsimgfilesvscode {
+  margin-left: 10px;
 }
 
 .filesvscode {
@@ -901,6 +917,11 @@
   display: flex;
   border-bottom-right-radius: 10px;
   background-color: #1f1f1f;
+}
+
+.console0 {
+  color: rgba(255, 255, 255, 0.245);
+  margin-right: 10px;
 }
 
 .cosole1 {
