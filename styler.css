@@ -407,11 +407,12 @@
 }
 
 .imgdock:hover {
-  transform: scale(1.2);
+  transform: translateY(-10px);
 }
 
 .finder {
   margin-left: 8px;
+  cursor: pointer;
 }
 
 .line {
