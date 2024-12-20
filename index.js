@@ -7,16 +7,17 @@
 
 let links = document.querySelectorAll(".link")
 let folder2 = document.querySelector(".folder2")
+let file1 = document.querySelector(".file1")
+let top1 = document.querySelector(".top1")
+let menu1 = document.querySelector(".menu1")
+let finderIcon = document.querySelector(".imgdock.finder")
 
-function clickButton(e){
-
+function clickButton(e) {
   fetch(e.target.dataset.page)
     .then(data => data.text())
     .then(text => {
-      
-      folder2.innerHTML = text;
-      folder2.style.opacity = 1;
-
+      folder2.innerHTML = text
+      folder2.style.opacity = 1
     })
 }
 
@@ -26,6 +27,11 @@ links.forEach(link => {
 
 function closeWindowOnClick() {
   document.addEventListener("click", (e) => {
+    if (e.target.classList.contains("light") && e.target.classList.contains("red")) {
+      file1.style.opacity = 0
+      top1.style.opacity = 0
+      menu1.style.opacity = 0
+    }
     if (e.target.classList.contains("light2") && e.target.classList.contains("red")) {
       folder2.style.opacity = 0
       folder2.innerHTML = ""
@@ -33,7 +39,21 @@ function closeWindowOnClick() {
   })
 }
 
+function restoreOnClick() {
+  finderIcon.addEventListener("click", () => {
+    file1.style.opacity = 1
+    top1.style.opacity = 1
+    menu1.style.opacity = 1
+  })
+}
+
 closeWindowOnClick()
+restoreOnClick()
+
+
+
+
+
 
 
 

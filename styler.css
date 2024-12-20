@@ -301,7 +301,6 @@
 .imgfolder {
   margin: 10px;
   width: 80px;
-  cursor: pointer;
   pointer-events: none;
 }
 
@@ -316,11 +315,6 @@
   pointer-events: none;
 }
 
-.imgfile {
-  margin: 10px;
-  width: 70px;
-}
-
 .a {
   text-decoration: none;
   color: white;
@@ -329,8 +323,7 @@
 .folder2 {
   grid-area: folder2;
   width: 70%;
-  height: 70vh;
-  margin-top: 40px;
+  height: 74vh;
   justify-content: center;
   align-items: center;
   color: rgb(0, 0, 0);
