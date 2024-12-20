@@ -6,6 +6,7 @@
  */
 
 let links = document.querySelectorAll(".link")
+let link2 = document.querySelector(".link2")
 let folder2 = document.querySelector(".folder2")
 let file1 = document.querySelector(".file1")
 let top1 = document.querySelector(".top1")
@@ -47,12 +48,19 @@ function restoreOnClick() {
   })
 }
 
+function modifyFile1OnLink2Click() {
+  link2.addEventListener("click", () => {
+    fetch(link2.dataset.page)
+      .then(data => data.text())
+      .then(text => {
+        file1.innerHTML = text
+      })
+  })
+}
+
 closeWindowOnClick()
 restoreOnClick()
-
-
-
-
+modifyFile1OnLink2Click()
 
 
 

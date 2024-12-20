@@ -467,13 +467,297 @@
   height: 180px;
 }
 
-.knowledgejs {
+.proyectsjs {
   width: 100%;
   height: 100%;
   border-radius: 10px;
 }
 
-.proyectsjs {
+.topproyectsjs {
+  background-color: #363637;
+  width: 100%;
+  height: 12%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: solid 1px black;
+  display: flex;
+}
+
+.traffic-lights3 {
+  display: flex;
+  gap: 8px;
+  top: 12px;
+  left: 12px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.light3 {
+  width: 14px;
+  height: 14px;
+  margin-top: 3%;
+  border-radius: 50%;
+  background-color: #555;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+.light3.red {
+  background-color: #ff5f56;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.light3.red:hover {
+  transform: scale(1.2);
+}
+
+.light3.yellow {
+  background-color: #ffbd2e;
+}
+
+.light3.green {
+  background-color: #27c93f;
+}
+
+.h1proyects {
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  margin: 10px;
+}
+
+.myproyectsjs {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+   "myp01"
+   "myp02"
+   "myp03"
+   "myp04"
+   "myp05"
+   "myp06"
+   "myp07"
+   "myp08"
+   "myp09"
+   "myp10"
+   "myp11"
+   "myp12"
+   "myp13"
+   "myp14"
+   "myp15"
+   "myp16"
+   "myp17"
+   "myp18"
+   "myp19"
+   "myp20"
+   "myp21"
+   "myp22"
+   "myp23";
+}
+
+.imgproyects {
+  width: 60%;
+}
+
+.myp01 {
+  grid-area: myp01;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #202121;
+}
+
+.myp02 {
+  grid-area: myp02;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #333333;
+}
+
+.myp03 {
+  grid-area: myp03;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #202121;
+}
+
+.myp04 {
+  grid-area: myp04;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #333333;
+}
+
+.myp05 {
+  grid-area: myp05;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #202121;
+}
+
+.myp06 {
+  grid-area: myp06;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #333333;
+}
+
+.myp07 {
+  grid-area: myp07;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #202121;
+}
+
+.myp08 {
+  grid-area: myp08;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #333333;
+}
+
+.myp09 {
+  grid-area: myp09;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #202121;
+}
+
+.myp10 {
+  grid-area: myp10;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #333333;
+}
+
+.myp11 {
+  grid-area: myp11;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #202121;
+}
+
+.myp12 {
+  grid-area: myp12;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #333333;
+}
+
+.myp13 {
+  grid-area: myp13;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #202121;
+}
+
+.myp14 {
+  grid-area: myp14;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #333333;
+}
+
+.myp15 {
+  grid-area: myp15;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #202121;
+}
+
+.myp16 {
+  grid-area: myp16;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #333333;
+}
+
+.myp17 {
+  grid-area: myp17;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #202121;
+}
+
+.myp18 {
+  grid-area: myp18;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #333333;
+}
+
+.myp19 {
+  grid-area: myp19;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #202121;
+}
+
+.myp20 {
+  grid-area: myp20;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #333333;
+}
+
+.myp21 {
+  grid-area: myp21;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #202121;
+}
+
+.myp22 {
+  grid-area: myp22;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #333333;
+}
+
+.myp23 {
+  grid-area: myp23;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #202121;
+}
+
+.h1proyectsjs {
+  color: white;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.h1undifined {
+  color: rgba(255, 255, 255, 0);
+}
+
+
+.knowledgejs {
   width: 100%;
   height: 100%;
   border-radius: 10px;
