@@ -13,12 +13,22 @@ let menu1 = document.querySelector(".menu1")
 let finderIcon = document.querySelector(".imgdock.finder")
 
 function clickButton(e) {
-  fetch(e.target.dataset.page)
-    .then(data => data.text())
-    .then(text => {
-      folder2.innerHTML = text
-      folder2.style.opacity = 1
-    })
+  const page = e.currentTarget.dataset.page
+
+  if (page) {
+    fetch(page)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error("No se pudo cargar el archivo: " + response.statusText)
+        }
+        return response.text()
+      })
+      .then(text => {
+        folder2.innerHTML = text
+        folder2.style.opacity = 1
+      })
+      .catch(error => console.error(error))
+  }
 }
 
 links.forEach(link => {
@@ -26,7 +36,7 @@ links.forEach(link => {
 })
 
 function closeWindowOnClick() {
-  document.addEventListener("click", (e) => {
+  document.addEventListener("click", e => {
     if (e.target.classList.contains("light") && e.target.classList.contains("red")) {
       file1.style.opacity = 0
       top1.style.opacity = 0
@@ -53,6 +63,7 @@ function restoreOnClick() {
 
 closeWindowOnClick()
 restoreOnClick()
+
 
 /* https://configuroweb.com/construye-tu-propio-reloj-digital-en-javascript-guia-paso-a-paso/#google_vignette */
 function actualizarHora() {

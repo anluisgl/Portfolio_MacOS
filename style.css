@@ -807,6 +807,102 @@
   background-color: #27c93f;
 }
 
+/* vscode.html */
+
+.vscode {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  background-color: #181818;
+  border-radius: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas: 
+  "topvscode topvscode topvscode"
+  "menuvscode1 menuvscode2 menuvscode2"
+  "filesvscode codevscode codevscode";
+}
+
+.topvscode {
+  grid-area: topvscode;
+  width: 100%;
+  height: 45px;
+  display: flex;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.241);
+}
+
+.menuvscode1 {
+  grid-area: menuvscode1;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.241);
+  border-right: 1px solid rgba(255, 255, 255, 0.241);
+}
+
+.imgvscode {
+  width: 17px;
+}
+
+.menuimgvscode {
+  filter: opacity(0.5);
+  margin: 5px;
+}
+
+.imgvscodeselect {
+  filter: opacity(0.8);
+}
+
+.menuvscode2 {
+  grid-area: menuvscode2;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.241);
+}
+
+.filesvscode {
+  grid-area: filesvscode;
+  width: 100%;
+  height: 70vh;
+  display: block;
+  border-bottom-left-radius: 10px;
+  border-right: 1px solid rgba(255, 255, 255, 0.241);
+  background-color: #181818;
+}
+
+.h1filesvscode {
+  color: rgba(255, 255, 255, 0.773);
+  font-size: 13px;
+  text-align: left;
+  margin: 10px;
+  font-weight: 500;
+  display: flex;
+}
+
+.filesvscodeselect {
+  font-weight: 300;
+}
+
+.filesimgvscode {
+  width: 15px;
+  object-fit: contain;
+  margin-right: 7px;
+}
+
+.codevscode {
+  grid-area: codevscode;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  border-bottom-right-radius: 10px;
+  background-color: #1f1f1f;
+}
+
 /** CSS MOBILE.ver */
 
 .top2 {
