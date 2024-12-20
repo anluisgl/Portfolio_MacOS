@@ -283,8 +283,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto;
-  grid-template-areas:
-   "folder1 folder2";
+  grid-template-areas: "folder1 folder2";
 }
 
 .folder1 {
@@ -298,7 +297,6 @@
   color: white;
   margin-top: 10px;
 }
-
 
 .imgfolder {
   margin: 10px;
@@ -536,29 +534,29 @@
   grid-template-columns: 1fr;
   grid-template-rows: auto auto;
   grid-template-areas:
-   "myp01"
-   "myp02"
-   "myp03"
-   "myp04"
-   "myp05"
-   "myp06"
-   "myp07"
-   "myp08"
-   "myp09"
-   "myp10"
-   "myp11"
-   "myp12"
-   "myp13"
-   "myp14"
-   "myp15"
-   "myp16"
-   "myp17"
-   "myp18"
-   "myp19"
-   "myp20"
-   "myp21"
-   "myp22"
-   "myp23";
+    "myp01"
+    "myp02"
+    "myp03"
+    "myp04"
+    "myp05"
+    "myp06"
+    "myp07"
+    "myp08"
+    "myp09"
+    "myp10"
+    "myp11"
+    "myp12"
+    "myp13"
+    "myp14"
+    "myp15"
+    "myp16"
+    "myp17"
+    "myp18"
+    "myp19"
+    "myp20"
+    "myp21"
+    "myp22"
+    "myp23";
 }
 
 .imgproyects {
@@ -752,6 +750,9 @@
 .h1proyectsjs {
   color: white;
   font-size: 16px;
+  display: flex;
+  font-weight: 400;
+  align-items: center;
   margin-left: 10px;
 }
 
@@ -759,6 +760,17 @@
   color: rgba(255, 255, 255, 0);
 }
 
+.imgproyects {
+  width: 17px;
+  height: 17px;
+  margin-right: 5px;
+  object-fit: contain;
+}
+
+.pponiter:hover {
+  background-color: #275ad1;
+  cursor: pointer;
+}
 
 .knowledgejs {
   width: 100%;
@@ -963,7 +975,7 @@
 /** CSS MOBILE-ABOUTME.ver */
 
 .aboutme {
-text-align: center;
+  text-align: center;
 }
 
 .aboutmemobile {
@@ -1092,53 +1104,53 @@ text-align: center;
 }
 
 @media screen and (width: 1366px) and (height: 768px) {
- .pboutmejs {
-  font-size: 13px;
- }
- .docki {
-  grid-area: docki;
-  width: 100%;
-  height: 100%;
-  display: flex;
-}
+  .pboutmejs {
+    font-size: 13px;
+  }
+  .docki {
+    grid-area: docki;
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
 
-.imgdock {
-  width: 40px;
-  height: 40px;
-  object-fit: contain;
-}
+  .imgdock {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+  }
 
-.line {
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 6px;
-  height: 30px;
-  opacity: 60%;
-}
+  .line {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 6px;
+    height: 30px;
+    opacity: 60%;
+  }
 }
 
 @media (max-width: 1460px) {
   .pboutmejs {
-   font-size: 13px;
+    font-size: 13px;
   }
   .docki {
-   grid-area: docki;
-   width: 100%;
-   height: 100%;
-   display: flex;
- }
- 
- .imgdock {
-   width: 45px;
-   height: 45px;
-   object-fit: contain;
- }
- 
- .line {
-   margin-left: 10px;
-   margin-right: 10px;
-   margin-top: 6px;
-   height: 30px;
-   opacity: 60%;
- }
- }
+    grid-area: docki;
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+
+  .imgdock {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+  }
+
+  .line {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 6px;
+    height: 30px;
+    opacity: 60%;
+  }
+}

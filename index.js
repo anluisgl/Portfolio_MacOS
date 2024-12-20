@@ -54,15 +54,6 @@ function restoreOnClick() {
 closeWindowOnClick()
 restoreOnClick()
 
-
-
-
-
-
-
-
-
-
 /* https://configuroweb.com/construye-tu-propio-reloj-digital-en-javascript-guia-paso-a-paso/#google_vignette */
 function actualizarHora() {
   const reloj = document.getElementById('reloj');
