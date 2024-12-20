@@ -6,7 +6,6 @@
  */
 
 let links = document.querySelectorAll(".link")
-let link2 = document.querySelector(".link2")
 let folder2 = document.querySelector(".folder2")
 let file1 = document.querySelector(".file1")
 let top1 = document.querySelector(".top1")
@@ -37,6 +36,10 @@ function closeWindowOnClick() {
       folder2.style.opacity = 0
       folder2.innerHTML = ""
     }
+    if (e.target.classList.contains("light3") && e.target.classList.contains("red")) {
+      folder2.style.opacity = 0
+      folder2.innerHTML = ""
+    }
   })
 }
 
@@ -48,19 +51,11 @@ function restoreOnClick() {
   })
 }
 
-function modifyFile1OnLink2Click() {
-  link2.addEventListener("click", () => {
-    fetch(link2.dataset.page)
-      .then(data => data.text())
-      .then(text => {
-        file1.innerHTML = text
-      })
-  })
-}
-
 closeWindowOnClick()
 restoreOnClick()
-modifyFile1OnLink2Click()
+
+
+
 
 
 
