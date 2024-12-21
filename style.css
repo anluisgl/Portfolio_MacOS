@@ -1009,10 +1009,48 @@ border-right: 1px solid rgb(0, 0, 0);
   grid-area: gitdrop;
   width: 100%;
   height: 100%;
-  display: flex;
+  display: block;
   background-color: #2e3137;
   border-right: 1px solid rgb(0, 0, 0);
 }
+
+.gitdroprepo {
+  background-color: rgb(29, 33, 37);
+  border-bottom: 1px solid rgb(0, 0, 0);
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gitdropimg {
+  width: 17px;
+  margin-right: 5px;
+}
+
+.positiongitdrop {
+  display: block;
+}
+
+.gitdropp {
+  color: gray;
+  font-size: 10px;
+}
+
+.gitdroph1 {
+  color: rgb(255, 255, 255);
+  font-size: 10px;
+}
+
+.gitdropchhis {
+  width: 100%;
+  height: 25px;
+  display: flex;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
 
 .gitlocal {
   grid-area: gitlocal;
