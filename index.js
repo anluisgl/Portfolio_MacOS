@@ -5,64 +5,47 @@
  * Repository: https://github.com/anluisgl
  */
 
-let links = document.querySelectorAll(".link")
-let folder2 = document.querySelector(".folder2")
-let file1 = document.querySelector(".file1")
-let top1 = document.querySelector(".top1")
-let menu1 = document.querySelector(".menu1")
-let finderIcon = document.querySelector(".imgdock.finder")
+const links = document.querySelectorAll(".link")
+const folder2 = document.querySelector(".folder2")
+const file1 = document.querySelector(".file1")
+const top1 = document.querySelector(".top1")
+const menu1 = document.querySelector(".menu1")
+const finderIcon = document.querySelector(".imgdock.finder")
 
 function clickButton(e) {
   const page = e.currentTarget.dataset.page
+  if (!page) return
 
-  if (page) {
-    fetch(page)
-      .then(response => {
-        if (!response.ok) {
-          throw new Error("No se pudo cargar el archivo: " + response.statusText)
-        }
-        return response.text()
-      })
-      .then(text => {
-        folder2.innerHTML = text
-        folder2.style.opacity = 1
-      })
-      .catch(error => console.error(error))
-  }
+  fetch(page)
+    .then(response => response.text())
+    .then(text => {
+      folder2.innerHTML = text
+      folder2.style.opacity = 1
+    })
 }
 
-links.forEach(link => {
-  link.addEventListener("click", clickButton)
+links.forEach(link => link.addEventListener("click", clickButton))
+
+document.addEventListener("click", e => {
+  if (e.target.classList.contains("light") && e.target.classList.contains("red")) {
+    file1.style.opacity = 0
+    top1.style.opacity = 0
+    menu1.style.opacity = 0
+  } else if (e.target.classList.contains("light2") && e.target.classList.contains("red")) {
+    folder2.style.opacity = 0
+    folder2.innerHTML = ""
+  } else if (e.target.classList.contains("light3") && e.target.classList.contains("red")) {
+    folder2.style.opacity = 0
+    folder2.innerHTML = ""
+  }
 })
 
-function closeWindowOnClick() {
-  document.addEventListener("click", e => {
-    if (e.target.classList.contains("light") && e.target.classList.contains("red")) {
-      file1.style.opacity = 0
-      top1.style.opacity = 0
-      menu1.style.opacity = 0
-    }
-    if (e.target.classList.contains("light2") && e.target.classList.contains("red")) {
-      folder2.style.opacity = 0
-      folder2.innerHTML = ""
-    }
-    if (e.target.classList.contains("light3") && e.target.classList.contains("red")) {
-      folder2.style.opacity = 0
-      folder2.innerHTML = ""
-    }
-  })
-}
+finderIcon.addEventListener("click", () => {
+  file1.style.opacity = 1
+  top1.style.opacity = 1
+  menu1.style.opacity = 1
+})
 
-function restoreOnClick() {
-  finderIcon.addEventListener("click", () => {
-    file1.style.opacity = 1
-    top1.style.opacity = 1
-    menu1.style.opacity = 1
-  })
-}
-
-closeWindowOnClick()
-restoreOnClick()
 
 
 /* https://configuroweb.com/construye-tu-propio-reloj-digital-en-javascript-guia-paso-a-paso/#google_vignette */
