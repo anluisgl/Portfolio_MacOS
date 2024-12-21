@@ -1196,9 +1196,10 @@ cursor: pointer;
   grid-template-columns: 1fr;
   grid-template-rows: auto auto;
   grid-template-areas: 
-  "topmc"
-  "logomc";
+    "topmc"
+    "logomc";
 }
+
 
 .topmc {
   grid-area: topmc;
