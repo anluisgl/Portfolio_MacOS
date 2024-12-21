@@ -322,7 +322,7 @@
 
 .folder2 {
   grid-area: folder2;
-  width: 70%;
+  width: 90%;
   height: 100%;
   justify-content: center;
   align-items: center;
@@ -1242,6 +1242,11 @@ cursor: pointer;
   border: 1px solid black;
   background-color: gray;
   margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.buttonmc:hover {
+  background-color: rgb(84, 84, 84);
 }
 
 .mcminib {
@@ -1253,9 +1258,19 @@ cursor: pointer;
   margin-left: 0;
 }
 
+.ptest{
+  border: 2px rgb(255, 255, 255) solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  color: white;
+}
 
-
-
+p.originalP{
+  border: none;
+  padding: 0;
+  margin: 0;
+}
 
 
 /* CSS MOBILE.ver */
