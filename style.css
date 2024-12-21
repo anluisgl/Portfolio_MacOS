@@ -1189,10 +1189,72 @@ cursor: pointer;
   width: 100%;
   height: 100%;
   border-radius: 10px;
-  background-color: #0a84fe;
-  background-image: url("img/fondowalapaper.gif");
+  background-image: url("img/wallapperminecraft.gif");
   background-size: cover;
+  display: grid;
+  border-radius: 10px;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas: 
+  "topmc"
+  "logomc";
 }
+
+.topmc {
+  grid-area: topmc;
+  width: 100%;
+  height: 100%;
+}
+
+.logomc {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imglogomc {
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.botonmc {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: auto;
+}
+
+.botonmc2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: auto;
+}
+
+.buttonmc {
+  display: block;
+  width: 300px;
+  height: 30px;
+  color: white;
+  border: 1px solid black;
+  background-color: gray;
+  margin-top: 10px;
+}
+
+.mcminib {
+  width: 140px;
+  margin-left: 15px;
+}
+
+.minib {
+  margin-left: 0;
+}
+
+
+
 
 
 
