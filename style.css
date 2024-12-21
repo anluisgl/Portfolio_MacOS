@@ -1185,6 +1185,15 @@ cursor: pointer;
   color: gray;
 }
 
+.minecraft {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #0a84fe;
+  background-image: url("img/fondowalapaper.gif");
+  background-size: cover;
+}
+
 
 
 /* CSS MOBILE.ver */
