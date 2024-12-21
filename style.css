@@ -1150,13 +1150,25 @@ border-right: 1px solid rgb(0, 0, 0);
   background-color: rgb(0, 132, 255);
 }
 
-
 .gitlocal {
   grid-area: gitlocal;
   width: 100%;
   height: 500px;
-  display: flex;
+  display: block;
 }
+
+.h1gitlocal {
+  text-align: start;
+  margin: 10px;
+  color: white;
+}
+
+.pgitlocal {
+  text-align: start;
+  margin: 10px;
+  color: gray;
+}
+
 
 
 /* CSS MOBILE.ver */
