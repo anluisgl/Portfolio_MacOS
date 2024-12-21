@@ -1077,13 +1077,13 @@ border-right: 1px solid rgb(0, 0, 0);
 
 .gitdropzero {
   width: 100%;
-  height: 35%;
-  background-color: red;
+  height: 50%;
+  background-color: #24292f;
 }
 
 .gitdropsummary {
   width: 100%;
-  height: 50%;
+  height: 35%;
   background-color: #0a84fe;
 }
 
