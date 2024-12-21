@@ -978,13 +978,26 @@
 display: flex;
 padding: 10px;
 border-right: 1px solid rgb(0, 0, 0);
+transition: background-color 0.3s ease;
+cursor: pointer;
 }
+
+.gitmenu1:hover {
+  background-color: rgb(44, 50, 56);
+}
+
 
 .gitmenu2 {
   display: flex;
   padding: 10px;
+  cursor: pointer;
   border-right: 1px solid rgb(0, 0, 0);
-  }
+  transition: background-color 0.3s ease;
+}
+
+.gitmenu2:hover {
+  background-color: rgb(44, 50, 56);
+}
 
 .imggitmenu {
   width: 17px;
@@ -1013,6 +1026,7 @@ border-right: 1px solid rgb(0, 0, 0);
   background-color: #2e3137;
   border-right: 1px solid rgb(0, 0, 0);
   border-bottom-left-radius: 10px;
+  cursor: pointer;
 }
 
 .gitdroprepo {
