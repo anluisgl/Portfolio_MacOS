@@ -938,6 +938,83 @@
 
 /* github.html */
 
+.github {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  background-color: #2e3137;
+  border-radius: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas: 
+  "gittop gittop gittop"
+  "gitdrop gitmenu gitmenu"
+  "gitdrop gitlocal gitlocal";
+}
+
+.gittop {
+  grid-area: gittop;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #2e3137;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.gitmenu {
+  grid-area: gitmenu;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: rgb(29, 33, 37);
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.gitmenu1 {
+display: flex;
+padding: 10px;
+border-right: 1px solid rgb(0, 0, 0);
+}
+
+.imggitmenu {
+  width: 17px;
+  margin: 5px;
+}
+
+.pgitmenu {
+  color: gray;
+  font-size: 10px;
+}
+
+.h1gitmenu {
+  color: rgb(255, 255, 255);
+  font-size: 10px;
+}
+
+.positiongitmenu {
+  display: block;
+}
+
+.gitdrop {
+  grid-area: gitdrop;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #2e3137;
+  border-right: 1px solid rgb(0, 0, 0);
+}
+
+.gitlocal {
+  grid-area: gitlocal;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  background-color: #2e3137;
+}
 
 
 /* CSS MOBILE.ver */
