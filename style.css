@@ -402,6 +402,7 @@
   height: 50px;
   margin: auto;
   object-fit: contain;
+  cursor: pointer;
   transition: transform 0.3s ease;
 }
 
@@ -411,6 +412,7 @@
 
 .finder {
   cursor: pointer;
+  margin-bottom: 13px;
 }
 
 .line {
@@ -419,6 +421,14 @@
   margin-top: 8px;
   height: 37px;
   opacity: 60%;
+}
+
+.foldericon {
+  margin-bottom: 13px;
+}
+
+.bin {
+  margin-bottom: 13px;
 }
 
 /* 01.html */
