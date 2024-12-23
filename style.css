@@ -1185,6 +1185,41 @@ cursor: pointer;
   color: gray;
 }
 
+.safari {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+   "safaritop"
+   "safaritag"
+   "safarizero";
+}
+
+.safaritop {
+  grid-area: safaritop;
+  width: 100%;
+  height: 30%;
+  background-color: #343434;
+}
+
+.safaritag {
+  grid-area: safaritag;
+  width: 100%;
+  height: 30%;
+  margin-top: -100px;
+  background-color: #ff0000;
+}
+
+.safarizero {
+  grid-area: safarizero;
+  width: 100%;
+  height: 100%;
+  margin-top: -100px;
+  background-color: #00b3ff;
+}
+
 /* CSS MOBILE.ver */
 
 .top2 {
