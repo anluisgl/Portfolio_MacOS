@@ -20,6 +20,9 @@ document.querySelectorAll('.thefolder').forEach(folder => {
 
 
 
+
+
+
 const links = document.querySelectorAll(".link")
 const folder2 = document.querySelector(".folder2")
 const file1 = document.querySelector(".file1")
@@ -62,7 +65,6 @@ finderIcon.addEventListener("click", () => {
 })
 
 
-
 /* el reloj lo he echo yo pero he usado "https://desarrolloweb.com/articulos/549.php" y 
 la explicacion que dio en clase el profesor para ayudarme a crearlo */
 setInterval(() => {
@@ -77,6 +79,7 @@ setInterval(() => {
   const minutos = ahora.getMinutes().toString().padStart(2, "0")
   reloj.textContent = `${dia} ${fecha} ${mes} ${horas}:${minutos}`
 }, 1000)
+
 
 
 
