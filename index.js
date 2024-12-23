@@ -48,21 +48,27 @@ finderIcon.addEventListener("click", () => {
 
 
 
-/* https://configuroweb.com/construye-tu-propio-reloj-digital-en-javascript-guia-paso-a-paso/#google_vignette */
-function actualizarHora() {
-  const reloj = document.getElementById('reloj');
-  const ahora = new Date();
-  const horas = agregarCero(ahora.getHours());
-  const minutos = agregarCero(ahora.getMinutes());
-  const segundos = agregarCero(ahora.getSeconds());
-  reloj.textContent = `${horas}:${minutos}:${segundos}`;
-}
+setInterval(() => {
+  const reloj = document.getElementById("reloj")
+  const ahora = new Date()
+  const dias = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+  const meses = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+  const dia = dias[ahora.getDay()]
+  const fecha = ahora.getDate()
+  const mes = meses[ahora.getMonth()]
+  const horas = ahora.getHours().toString().padStart(2, "0")
+  const minutos = ahora.getMinutes().toString().padStart(2, "0")
+  reloj.textContent = `${dia} ${fecha} ${mes} ${horas}:${minutos}`
+}, 1000)
 
-function agregarCero(numero) {
-  return numero < 10 ? '0' + numero : numero;
-}
 
-setInterval(actualizarHora, 1000);
-actualizarHora();
+
+const sound = new Audio("Sound/Start Navigation.wav")
+sound.preload = "auto"
+
+document.addEventListener("click", () => {
+  sound.currentTime = 0
+  sound.play()
+})
 
 
