@@ -7,7 +7,8 @@
 
 
 
-/* uso esto para abrir enlace por que no consigo centar los iconos del dock que tiene <a href=""></a> */
+/* estaba usando esto para poder quitar el "a" de los iconos del dock por que
+no se centraban... tambien lo uso para poder experimentar otras opciones aparte */
 document.querySelectorAll('.thefolder').forEach(folder => {
   folder.addEventListener('click', function () {
       const url = folder.getAttribute('data-url')
@@ -64,7 +65,6 @@ finderIcon.addEventListener("click", () => {
 
 /* el reloj lo he echo yo pero he usado "https://desarrolloweb.com/articulos/549.php" y 
 la explicacion que dio en clase el profesor para ayudarme a crearlo */
-
 setInterval(() => {
   const reloj = document.getElementById("reloj")
   const ahora = new Date()

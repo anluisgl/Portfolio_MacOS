@@ -418,9 +418,8 @@
 }
 
 .line {
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 8px;
+  margin: 13px;
+  width: 1.5px;
   height: 37px;
   opacity: 60%;
 }
