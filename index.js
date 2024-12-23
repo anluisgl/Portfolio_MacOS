@@ -71,4 +71,3 @@ document.addEventListener("click", () => {
   sound.play()
 })
 
-
