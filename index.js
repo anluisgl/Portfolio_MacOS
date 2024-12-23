@@ -64,7 +64,6 @@ setInterval(() => {
 
 
 const sound = new Audio("Sound/Start Navigation.wav")
-sound.preload = "auto"
 
 document.addEventListener("click", () => {
   sound.currentTime = 0
