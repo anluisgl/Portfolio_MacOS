@@ -5,6 +5,20 @@
  * Repository: https://github.com/anluisgl
  */
 
+
+
+/* uso esto para abrir enlace por que no consigo centar los iconos del dock que tiene <a href=""></a> */
+document.querySelectorAll('.thefolder').forEach(folder => {
+  folder.addEventListener('click', function () {
+      const url = folder.getAttribute('data-url')
+      if (url) {
+          window.open(url, '_blank')
+      }
+  })
+})
+
+
+
 const links = document.querySelectorAll(".link")
 const folder2 = document.querySelector(".folder2")
 const file1 = document.querySelector(".file1")
@@ -48,6 +62,9 @@ finderIcon.addEventListener("click", () => {
 
 
 
+/* el reloj lo he echo yo pero he usado "https://desarrolloweb.com/articulos/549.php" y 
+la explicacion que dio en clase el profesor para ayudarme a crearlo */
+
 setInterval(() => {
   const reloj = document.getElementById("reloj")
   const ahora = new Date()
@@ -63,10 +80,4 @@ setInterval(() => {
 
 
 
-const sound = new Audio("Sound/Start Navigation.wav")
-
-document.addEventListener("click", () => {
-  sound.currentTime = 0
-  sound.play()
-})
 
