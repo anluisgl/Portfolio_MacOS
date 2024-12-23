@@ -398,9 +398,9 @@
 }
 
 .imgdock {
-  width: 50px;
+  width: auto;
   height: 50px;
-  margin: 2px;
+  margin: auto;
   object-fit: contain;
   transition: transform 0.3s ease;
 }
