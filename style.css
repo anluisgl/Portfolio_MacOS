@@ -1278,12 +1278,12 @@
 
 .imgvboxdockclock {
   width: 15px;
-  margin: 10px;
+  margin: auto;
 }
 
 .pvboxdockclock  {
   color: white;
-  font-size: 15px;
+  font-size: 17px;
   margin: auto;
 }
 
