@@ -75,8 +75,3 @@ setInterval(() => {
   const minutos = ahora.getMinutes().toString().padStart(2, "0")
   reloj.textContent = `${dia} ${fecha} ${mes} ${horas}:${minutos}`
 }, 1000)
-
-
-
-
-

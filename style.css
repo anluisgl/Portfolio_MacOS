@@ -242,7 +242,7 @@
 }
 
 .h1section {
-  color: rgba(255, 255, 255, 0.506);
+  color: rgba(255, 255, 255, 0.774);
   font-size: 13px;
   font-weight: 440;
   margin: 10px;
@@ -1198,6 +1198,96 @@
   font-size: 10px;
   color: gray;
 }
+
+/* VSCODE.HTML */
+
+.vbox {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  background-image: url("img/winxp.png");
+  background-size: cover;
+  border-radius: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "vboxtop vboxtop vboxtop vboxtop vboxtop"
+    "vboxmenu vboxmenu vboxmenu vboxmenu vboxmenu"
+    "vboxdockwin vboxdock vboxdock vboxdock vboxdockclock";
+}
+
+.vboxmenu {
+  grid-area: vboxmenu;
+  width: 100%;
+  height: 73vh;
+  display: block;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.imgvboxmenu {
+  width: 50px;
+  margin: 20px;
+}
+
+.mono  {
+  margin-top: 60%;
+  margin-left: 85%;
+}
+
+.vboxdockwin {
+  grid-area: vboxdockwin;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 10px;
+  background-color: #3a9a39;
+}
+
+.h1vboxdockwin {
+  color: white;
+  font-size: 20px;
+  margin: 7px;
+  font-style: italic;
+}
+
+.imgvboxdockwin {
+  width: 25px;
+}
+
+.vboxdock {
+  grid-area: vboxdock;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  background-color: #2a5ddb;
+}
+
+.vboxdockclock {
+  grid-area: vboxdockclock;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 10px;
+  background-color: #3490e9;
+}
+
+.imgvboxdockclock {
+  width: 15px;
+  margin: 10px;
+}
+
+.pvboxdockclock  {
+  color: white;
+  font-size: 15px;
+  margin: auto;
+}
+
+
 
 /* CSS MOBILE.ver */
 
