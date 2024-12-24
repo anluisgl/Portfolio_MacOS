@@ -2,7 +2,7 @@
  * Project: Portfolio_MacOS
  * Author: anluisgl
  * License: MIT
- * Repository: https://github.com/anluisgl
+ * Repository: https://github.com/anluisgl/Portfolio_MacOS
  */
 
 
@@ -17,10 +17,6 @@ document.querySelectorAll('.thefolder').forEach(folder => {
       }
   })
 })
-
-
-
-
 
 
 const links = document.querySelectorAll(".link")

@@ -2,7 +2,7 @@
  * Project: Portfolio_MacOS
  * Author: anluisgl
  * License: MIT
- * Repository: https://github.com/anluisgl
+ * Repository: https://github.com/anluisgl/Portfolio_MacOS
  */
 
 * {
@@ -22,6 +22,7 @@
   background-position: center;
   height: 100vh;
   margin: 0;
+  overflow-y: hidden;
 }
 
 /** CSS PC.ver */
@@ -821,10 +822,10 @@
   border-radius: 10px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto auto;
-  grid-template-areas: 
-  "topvscode topvscode topvscode"
-  "menuvscode1 menuvscode2 menuvscode2"
-  "filesvscode codevscode codevscode";
+  grid-template-areas:
+    "topvscode topvscode topvscode"
+    "menuvscode1 menuvscode2 menuvscode2"
+    "filesvscode codevscode codevscode";
 }
 
 .topvscode {
@@ -961,10 +962,10 @@
   border-radius: 10px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto auto;
-  grid-template-areas: 
-  "gittop gittop gittop"
-  "gitdrop gitmenu gitmenu"
-  "gitdrop gitlocal gitlocal";
+  grid-template-areas:
+    "gittop gittop gittop"
+    "gitdrop gitmenu gitmenu"
+    "gitdrop gitlocal gitlocal";
 }
 
 .gittop {
@@ -989,17 +990,16 @@
 }
 
 .gitmenu1 {
-display: flex;
-padding: 10px;
-border-right: 1px solid rgb(0, 0, 0);
-transition: background-color 0.3s ease;
-cursor: pointer;
+  display: flex;
+  padding: 10px;
+  border-right: 1px solid rgb(0, 0, 0);
+  transition: background-color 0.3s ease;
+  cursor: pointer;
 }
 
 .gitmenu1:hover {
   background-color: rgb(44, 50, 56);
 }
-
 
 .gitmenu2 {
   display: flex;
@@ -1198,7 +1198,6 @@ cursor: pointer;
   font-size: 10px;
   color: gray;
 }
-
 
 /* CSS MOBILE.ver */
 
@@ -1470,15 +1469,19 @@ cursor: pointer;
 @media screen and (width: 1920px) and (height: 1080px) {
   .docki {
     grid-area: docki;
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
     display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .imgdock {
-    width: 54px;
-    height: 54px;
+    width: 50px;
+    height: 50px;
     object-fit: contain;
+    cursor: pointer;
+    transition: transform 0.3s ease;
   }
 
   .line {
@@ -1496,15 +1499,19 @@ cursor: pointer;
   }
   .docki {
     grid-area: docki;
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
     display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .imgdock {
     width: 40px;
     height: 40px;
     object-fit: contain;
+    cursor: pointer;
+    transition: transform 0.3s ease;
   }
 
   .line {
@@ -1522,9 +1529,11 @@ cursor: pointer;
   }
   .docki {
     grid-area: docki;
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
     display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .imgdock {
