@@ -18,7 +18,6 @@ document.querySelectorAll('.thefolder').forEach(folder => {
   })
 })
 
-
 const links = document.querySelectorAll(".link")
 const folder2 = document.querySelector(".folder2")
 const file1 = document.querySelector(".file1")
@@ -39,6 +38,15 @@ function clickButton(e) {
 }
 
 links.forEach(link => link.addEventListener("click", clickButton))
+
+document.querySelector(".imgdock.opacity1").addEventListener("click", function() {
+  document.querySelector(".folder3").style.opacity = "1"
+})
+
+document.querySelector(".light3.red").addEventListener("click", function() {
+  document.querySelector(".folder3").style.opacity = "0"
+})
+
 
 document.addEventListener("click", e => {
   if (e.target.classList.contains("light") && e.target.classList.contains("red")) {
