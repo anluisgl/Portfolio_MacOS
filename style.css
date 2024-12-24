@@ -293,7 +293,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto;
-  grid-template-areas: "folder1 folder2";
+  grid-template-areas:
+  "folder1 folder3 folder2";
 }
 
 .folder1 {
@@ -343,6 +344,23 @@
   box-shadow: 0 20px 50px rgb(0, 0, 0);
   border-radius: 10px;
   opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.folder3 {
+  grid-area: folder3;
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  margin-top: 100px;
+  color: rgb(0, 0, 0);
+  border: 1px solid #9a9a9a93;
+  background-color: #202020;
+  box-shadow: 0 20px 50px rgb(0, 0, 0);
+  border-radius: 10px;
+  opacity: 1;
   transition: all 0.3s ease;
 }
 
@@ -817,6 +835,7 @@
 .vscode {
   width: 100%;
   height: 100%;
+  margin-right: 500px;
   display: grid;
   background-color: #181818;
   border-radius: 10px;
@@ -1199,11 +1218,12 @@
   color: gray;
 }
 
-/* VSCODE.HTML */
+/* VSBOX.HTML */
 
 .vbox {
   width: 100%;
   height: 100%;
+  margin-right: 300px;
   display: grid;
   background-image: url("img/winxp.png");
   background-size: cover;
@@ -1228,11 +1248,6 @@
 .imgvboxmenu {
   width: 50px;
   margin: 20px;
-}
-
-.mono  {
-  margin-top: 60%;
-  margin-left: 85%;
 }
 
 .vboxdockwin {
