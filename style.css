@@ -367,10 +367,10 @@
 .traffic-lights3 {
   display: flex;
   gap: 8px;
-  top: 12px;
+  top: 10px;
   left: 12px;
   margin-left: 15px;
-  margin-top: 15px;
+  margin-top: 5px;
 }
 
 .light3 {
