@@ -1547,6 +1547,25 @@
   height: 180px;
 }
 
+/** CSS MOBILE-WORK.ver */
+
+.workmobile {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgworkmobile {
+  width: 100px;
+  margin: 10px;
+}
+
+.h1workmobile {
+  color: white;
+  font-size: 10px;
+  text-align: center;
+}
+
 /** CSS @media */
 
 @media (min-width: 1301px) {
