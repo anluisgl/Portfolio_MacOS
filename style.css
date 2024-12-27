@@ -357,7 +357,7 @@
   margin-top: 100px;
   color: rgb(0, 0, 0);
   border: 1px solid #9a9a9a93;
-  background-image: url("img/jsking.png");
+  background-image: url("img/covermusic.png");
   background-size: contain;
   box-shadow: 0 20px 50px rgb(0, 0, 0);
   border-radius: 10px;
@@ -407,8 +407,8 @@
   justify-content: center;
   align-items: center;
   margin-top: 46%;
-  background: rgba(100, 100, 100, 0.109);
   backdrop-filter: blur(10px);
+  background-color: rgba(141, 139, 139, 0.306);
   -webkit-backdrop-filter: blur(10px);
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
