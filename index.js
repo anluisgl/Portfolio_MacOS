@@ -68,7 +68,6 @@ finderIcon.addEventListener("click", () => {
   menu1.style.opacity = 1
 })
 
-
 /* el reloj lo he echo yo pero he usado "https://desarrolloweb.com/articulos/549.php" y 
 la explicacion que dio en clase el profesor para ayudarme a crearlo */
 setInterval(() => {
