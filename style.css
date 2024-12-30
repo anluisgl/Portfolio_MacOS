@@ -889,6 +889,48 @@
   background-color: #27c93f;
 }
 
+/* 03.html */
+
+.knwjs {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.knwjs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pknw {
+  margin-left: 10px;
+  margin-right: 5px;
+  text-align: start;
+}
+
+.imgknw {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.knwmarginleft {
+  margin-left: 5px;
+}
+
+.knwmarginri {
+  margin-right: 10px;
+}
+
+.imgknw:hover {
+  transform: translateY(-24px);
+}
+
 /* vscode.html */
 
 .vscode {
