@@ -1695,8 +1695,216 @@
 }
 
 .workmobile {
+  width: 100%;
+  display: grid;
   margin-top: 40px;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "myp01-2"
+    "myp02-2"
+    "myp03-2"
+    "myp04-2"
+    "myp05-2"
+    "myp06-2"
+    "myp07-2"
+    "myp08-2"
+    "myp09-2"
+    "myp10-2"
+    "myp11-2"
+    "myp12-2"
+    "myp13-2"
+    "myp14-2"
+    "myp15-2"
+    "myp16-2"
+    "myp17-2"
+    "myp18-2"
+    "myp19-2";
 }
+
+.imgproyects-2 {
+  width: 60%;
+}
+
+.myp01-2 {
+  grid-area: myp01-2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #202020;
+  margin-bottom: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.myp02-2 {
+  grid-area: myp02-2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #202020;
+}
+
+.myp03-2 {
+  grid-area: myp03-2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #202020;
+}
+
+.myp04-2 {
+  grid-area: myp04-2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #202020;
+}
+
+.myp05-2 {
+  grid-area: myp05-2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #202020;
+}
+
+.myp06-2 {
+  grid-area: myp06-2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #202020;
+}
+
+.myp07-2 {
+  grid-area: myp07-2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #202020;
+}
+
+.myp08-2 {
+  grid-area: myp08-2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #202020;
+}
+
+.myp09-2 {
+  grid-area: myp09-2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #202020;
+}
+
+.myp10-2 {
+  grid-area: myp10-2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #202020;
+}
+
+.myp11-2 {
+  grid-area: myp11-2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #202020;
+}
+
+.myp12-2 {
+  grid-area: myp12-2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #202020;
+}
+
+.myp13-2 {
+  grid-area: myp13-2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #202020;
+}
+
+.myp14-2 {
+  grid-area: myp14-2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #202020;
+}
+
+.myp15-2 {
+  grid-area: myp15-2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #202020;
+}
+
+.myp16-2 {
+  grid-area: myp16-2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #202020;
+}
+
+.myp17-2 {
+  grid-area: myp17-2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #202020;
+}
+
+.myp18-2 {
+  grid-area: myp18-2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #202020;
+}
+
+.myp19-2 {
+  grid-area: myp19-2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #202020;
+}
+
+.h1proyectsjs-2 {
+  color: white;
+  font-size: 16px;
+  display: flex;
+  font-weight: 400;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.h1undifined-2 {
+  color: rgba(255, 255, 255, 0);
+}
+
+.imgproyects-2 {
+  width: 32px;
+  height: 32px;
+  margin-right: 5px;
+  object-fit: contain;
+}
+
+.pponiter-2:hover {
+  background-color: #275ad1;
+  cursor: pointer;
+}
+
 
 /** CSS @media */
 
