@@ -901,7 +901,7 @@
 }
 
 .knwjs {
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
 }
@@ -909,7 +909,15 @@
 .pknw {
   margin-left: 10px;
   margin-right: 5px;
-  text-align: start;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.divimgknw {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 }
 
 .imgknw {
