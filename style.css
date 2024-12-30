@@ -57,7 +57,7 @@
 }
 
 .h1toolbar1finder {
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 13px;
   align-items: center;
   justify-content: left;
@@ -66,7 +66,7 @@
 }
 
 .ptoolbar1 {
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 13px;
   align-items: center;
   justify-content: left;
@@ -84,16 +84,18 @@
 }
 
 .ptoolbar2 {
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 13px;
   align-items: center;
   width: auto;
+  cursor: default;
 }
 
 .imgtoolbar2 {
   width: 15px;
   height: 15px;
   margin-right: 15px;
+  cursor: pointer;
 }
 
 .box {
@@ -149,10 +151,12 @@
   margin-top: 14px;
   justify-content: left;
   text-align: left;
+  cursor: default;
 }
 
 .spantop1 {
   color: rgba(255, 255, 255, 0.35);
+  cursor: default;
 }
 
 .toolbaritem {
@@ -218,6 +222,7 @@
   border-radius: 50%;
   background-color: #555;
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
 }
 
 .light.red {
@@ -239,6 +244,7 @@
   font-size: 10px;
   margin: 10px;
   margin-left: 25px;
+  cursor: default;
 }
 
 .h1section {
@@ -318,6 +324,7 @@
 .thefolder {
   margin-top: 50px;
   display: block;
+  cursor: pointer;
 }
 
 .namefile {
@@ -428,7 +435,7 @@
   font-size: 10px;
   margin-top: 30px;
   margin-left: 6px;
-  color: #ffffff79;
+  color: #000000ad;
 }
 
 .dock {
@@ -589,6 +596,7 @@
   background-color: #555;
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
   transition: background-color 0.3s ease;
+  cursor: pointer;
 }
 
 .light3.red {
@@ -869,6 +877,7 @@
   border-radius: 50%;
   background-color: #555;
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
 }
 
 .light2.red {
