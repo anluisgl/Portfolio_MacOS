@@ -318,6 +318,11 @@
 .thefolder {
   margin-top: 50px;
   display: block;
+  transition: all 0.3s ease-in-out;
+}
+
+.thefolder:hover {
+  transform: translateY(-10px);
 }
 
 .namefile {
@@ -927,16 +932,16 @@
   transition: all 0.3s ease-in-out;
 }
 
+.imgknw:hover {
+  transform: translateY(-24px);
+}
+
 .knwmarginleft {
   margin-left: 5px;
 }
 
 .knwmarginri {
   margin-right: 10px;
-}
-
-.imgknw:hover {
-  transform: translateY(-24px);
 }
 
 /* vscode.html */
