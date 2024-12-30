@@ -318,11 +318,6 @@
 .thefolder {
   margin-top: 50px;
   display: block;
-  transition: all 0.3s ease-in-out;
-}
-
-.thefolder:hover {
-  transform: translateY(-10px);
 }
 
 .namefile {
@@ -1899,12 +1894,6 @@
   margin-right: 5px;
   object-fit: contain;
 }
-
-.pponiter-2:hover {
-  background-color: #275ad1;
-  cursor: pointer;
-}
-
 
 /** CSS @media */
 
