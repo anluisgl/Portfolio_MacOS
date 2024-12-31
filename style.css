@@ -506,6 +506,7 @@
   width: 1.5px;
   height: 37px;
   opacity: 60%;
+  cursor: n-resize;
 }
 
 .dockx2 {
