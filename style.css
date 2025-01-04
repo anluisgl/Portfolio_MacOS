@@ -25,7 +25,7 @@
   overflow-y: hidden;
 }
 
-/** CSS PC.ver */
+/** CSS PC */
 
 .toolbar {
   grid-area: toolbar;
@@ -1421,7 +1421,7 @@
   margin: auto;
 }
 
-/* CSS MOBILE.ver */
+/* CSS MOBILE */
 
 .top2 {
   grid-area: top2;
@@ -1580,7 +1580,7 @@
   text-decoration: none;
 }
 
-/** CSS MOBILE-ABOUTME.ver */
+/** CSS MOBILE-ABOUTME */
 
 .aboutme {
   text-align: center;
@@ -1630,7 +1630,7 @@
   height: 180px;
 }
 
-/** CSS MOBILE-KNOW.ver */
+/** CSS MOBILE-KNOW */
 
 .bodyknwmobile {
   background-color: #202020;
@@ -1689,7 +1689,7 @@
   margin-right: 10px;
 }
 
-/** CSS MOBILE-PROECTS.ver */
+/** CSS MOBILE-PROECTS */
 
 .bodyproymobile {
   background-color: #202020;
