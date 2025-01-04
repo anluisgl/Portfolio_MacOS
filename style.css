@@ -463,9 +463,9 @@
   width: auto;
   height: auto;
   display: flex;
-  border-radius: 14px;
+  border-radius: 17px;
   backdrop-filter: blur(20px);
-  background: rgba(30, 30, 30, 0.1);
+  background: rgba(150, 55, 0, 0.445);
   border: 1px solid rgba(136, 136, 136, 0.605);
   color: white;
   display: grid;
