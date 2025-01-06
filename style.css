@@ -327,6 +327,13 @@
   cursor: pointer;
 }
 
+.mailthefolder {
+  margin-top: 50px;
+  display: block;
+  cursor: pointer;
+}
+
+
 .namefile {
   text-align: center;
   font-size: 13px;

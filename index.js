@@ -5,11 +5,23 @@
  * Repository: https://github.com/anluisgl/Portfolio_MacOS
  */
 
+
+
+/* Uso esto porque solo me funciona usando "a" para el texto, pero no para la foto. */
 document.querySelectorAll('.thefolder').forEach(folder => {
   folder.addEventListener('click', function () {
       const url = folder.getAttribute('data-url')
       if (url) {
           window.open(url, '_blank')
+      }
+  })
+})
+
+document.querySelectorAll('.mailthefolder').forEach(folder => {
+  folder.addEventListener('click', function () {
+      const url = folder.getAttribute('data-url')
+      if (url) {
+          window.open(url, '_self')
       }
   })
 })
