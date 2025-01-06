@@ -5,10 +5,6 @@
  * Repository: https://github.com/anluisgl/Portfolio_MacOS
  */
 
-
-
-/* estaba usando esto para poder quitar el "a" de los iconos del dock por que
-no se centraban... tambien lo uso para poder experimentar otras opciones */
 document.querySelectorAll('.thefolder').forEach(folder => {
   folder.addEventListener('click', function () {
       const url = folder.getAttribute('data-url')
