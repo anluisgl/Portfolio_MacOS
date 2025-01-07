@@ -1428,6 +1428,53 @@
   margin: auto;
 }
 
+/* terminal.html */
+
+.terminal {
+  width: 100%;
+  height: 100%;
+  margin-right: 500px;
+  display: grid;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+"topterminal"
+"contenidoterminal";
+}
+
+.topterminal {
+  grid-area: topterminal;
+  width: 100%;
+  height: 45px;
+  display: flex;
+  background-color: #383838;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.241);
+}
+
+.contenidoterminal {
+  grid-area: contenidoterminal;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.pterminal {
+  color: rgba(255, 255, 255, 0.88);
+  margin-bottom: 510px;
+  margin-left: 20px;
+  text-align: left;
+  font-family: "Roboto Mono", serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+}
+
 /* CSS MOBILE */
 
 .top2 {
