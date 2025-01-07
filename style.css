@@ -1793,6 +1793,7 @@
   height: 100%;
   display: flex;
   background-color: #202020;
+  padding: 10px;
   border-bottom: 1px solid gray;
 }
 
@@ -1802,7 +1803,7 @@
   height: 100%;
   display: flex;
   background-color: #202020;
-
+  padding: 10px;
   border-bottom: 1px solid gray;
 }
 
