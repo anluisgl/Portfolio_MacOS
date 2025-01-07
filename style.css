@@ -1757,6 +1757,8 @@
   width: 100%;
   display: grid;
   margin-top: 40px;
+  justify-content: center;
+  align-items: center;
   grid-template-columns: 1fr;
   grid-template-rows: auto auto;
   grid-template-areas:
@@ -1791,7 +1793,6 @@
   height: 100%;
   display: flex;
   background-color: #202020;
-  margin-bottom: 10px;
   border-bottom: 1px solid gray;
 }
 
@@ -1801,6 +1802,8 @@
   height: 100%;
   display: flex;
   background-color: #202020;
+
+  border-bottom: 1px solid gray;
 }
 
 .myp03-2 {
