@@ -1351,7 +1351,7 @@
   height: 100%;
   margin-right: 300px;
   display: grid;
-  background-image: url("img/winxp.png");
+  background-image: url("img/winxp.webp");
   background-size: cover;
   border-radius: 10px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
