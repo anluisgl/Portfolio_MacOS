@@ -65,8 +65,8 @@ document.addEventListener("click", e => {
     folder2.style.opacity = 0
     folder2.innerHTML = ""
   } else if (e.target.classList.contains("light3") && e.target.classList.contains("red")) {
-    folder2.style.opacity = 0
-    folder2.innerHTML = ""
+    folder3.style.opacity = 0
+    folder3.innerHTML = ""
   }
 })
 
