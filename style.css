@@ -38,7 +38,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto auto;
-  grid-template-areas: "toolbar1 toolbarx toolbar2";
+  grid-template-areas: 
+  "toolbar1 toolbarx toolbar2";
 }
 
 .toolbar1 {
